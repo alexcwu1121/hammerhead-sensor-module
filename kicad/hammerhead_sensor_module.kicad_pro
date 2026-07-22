@@ -605,23 +605,23 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "100R_DP",
+        "netclass": "100R_DP_T",
         "pattern": "/CM5_HighSpeed/DPHY*"
       },
       {
-        "netclass": "100R_DP",
+        "netclass": "100R_DP_T",
         "pattern": "/CM5_HighSpeed/HDMI1_D*"
       },
       {
-        "netclass": "100R_DP",
+        "netclass": "100R_DP_T",
         "pattern": "/CM5_HighSpeed/HDMI1_CK*"
       },
       {
-        "netclass": "100R_DP",
+        "netclass": "100R_DP_T",
         "pattern": "/CM5_HighSpeed/mipi_csi2_camera_port*/C_*"
       },
       {
-        "netclass": "100R_DP",
+        "netclass": "100R_DP_T",
         "pattern": "/CM5_HighSpeed/hdmi/TMDS_*"
       },
       {

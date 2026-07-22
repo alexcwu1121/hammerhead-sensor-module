@@ -1,0 +1,27 @@
+**v0.0.0**
+- Add initial design files
+
+**v0.0.1**
+
+CHANGED
+- Replace original USB-C connector with new part that sits flush to board without cutout
+- Add ESD protection to all connector nets
+- Replace too-high capacitance ESD diodes on cell module and USB-C with high speed ESD diodes
+- Configure JLC stackup JLC06161H-3313(Standard/Finished thickness1.54mm±10%)
+	- Notably, change internal layer weight from 1oz to 0.5oz, including L5 power planes
+- Change stackup from signal-ground-signal-power-ground-signal to signal-ground-signal-ground-power-signal for easier impedance matching
+- Remove ground pours from top and bottom layers
+- Clean up schematic symbols
+- Properly compute and configure 100R, 90R differential pair geometries for L3, L1/L6
+- Add impedance matching documentation
+- Run DRC
+- Add return vias
+- Clean up silkscreen
+
+TODO
+- Add power test points
+- Add version and logo silkscreen
+- Add component orientation silkscreen
+- Assign 3D models to pcb footprints
+- Add connector label silkscreen
+- Break out some debug GPIOs into testpoints
