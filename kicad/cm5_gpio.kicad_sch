@@ -5257,23 +5257,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
+			(property "Reference" "J8"
+				(at 6.858 -16.764 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "SM04B-SRSS-TBLFSN"
-				(at 0 0 0)
+				(at -3.81 -19.812 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "CONN_SM04B_JST"
+			(property "Footprint" "SM04B-SRSS-TB:CONN_SM04B_JST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5331,7 +5333,7 @@
 			(symbol "SM04B-SRSS-TBLFSN_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+						(xy 5.08 2.54) (xy 5.08 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -5343,7 +5345,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -5511,7 +5513,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
+						(xy 12.7 -15.24) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -5586,6 +5588,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5862,10 +5900,2175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SM04B-SRSS-TBLFSN_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J7"
+				(at 13.97 -2.5399 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SM04B-SRSS-TBLFSN"
+				(at 13.97 -5.0799 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SM04B-SRSS-TB:CONN_SM04B_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SM04B-SRSS-TBLFSN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SM04B-SRSS-TB(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_SM04B_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM04B-SRSS-TBLFSN_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SM04B-SRSS-TBLFSN_1_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPD1E05U06DPYR:TPD1E05U06DPYR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at 9.144 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TPD1E05U06DPYR"
+				(at 9.144 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UMW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPD1E05U06DPYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E05U06DPYR_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPD1E05U06DPYR_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D21"
+				(at 9.144 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TPD1E05U06DPYR"
+				(at 9.144 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UMW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPD1E05U06DPYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E05U06DPYR_1_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPD1E05U06DPYR_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D22"
+				(at 9.144 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TPD1E05U06DPYR"
+				(at 9.144 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UMW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPD1E05U06DPYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E05U06DPYR_2_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPD1E05U06DPYR_3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D16"
+				(at 9.144 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TPD1E05U06DPYR"
+				(at 9.144 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UMW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPD1E05U06DPYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E05U06DPYR_3_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPD1E05U06DPYR_4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D15"
+				(at 9.144 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TPD1E05U06DPYR"
+				(at 9.144 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UMW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPD1E05U06DPYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E05U06DPYR_4_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Pullup added for\nFans that don't have a\nstrong internal pullup "
 		(exclude_from_sim no)
-		(at 173.228 32.766 0)
+		(at 186.436 45.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5873,9 +8076,19 @@
 		)
 		(uuid "6f00b80f-d641-47e6-8672-086155cc78c2")
 	)
+	(text "QUESTION: Need ESD protection\non speaker amplifier outputs?"
+		(exclude_from_sim no)
+		(at 265.938 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71213da8-2b09-4f2a-a037-3184ae23ba46")
+	)
 	(text "Left word\noutput only"
 		(exclude_from_sim no)
-		(at 195.58 112.014 0)
+		(at 212.09 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5885,7 +8098,7 @@
 	)
 	(text_box "UART Debug Connector"
 		(exclude_from_sim no)
-		(at 134.62 86.36 0)
+		(at 166.37 86.36 0)
 		(size 13.97 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5925,7 +8138,7 @@
 	)
 	(text_box "Speaker"
 		(exclude_from_sim no)
-		(at 214.63 78.74 0)
+		(at 231.14 92.71 0)
 		(size 10.16 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5965,7 +8178,7 @@
 	)
 	(text_box "Fan Connector"
 		(exclude_from_sim no)
-		(at 170.18 41.91 0)
+		(at 231.14 41.91 0)
 		(size 16.51 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5984,7 +8197,7 @@
 		(uuid "e277ba85-a985-4a5f-8a70-d0c8d64fa96f")
 	)
 	(junction
-		(at 224.79 144.78)
+		(at 241.3 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "080d5afb-3d79-4e92-b2f8-72c33be3d2e1")
@@ -6002,7 +8215,7 @@
 		(uuid "24811e2d-a320-4e57-a8ed-b9917f39d1fc")
 	)
 	(junction
-		(at 219.71 91.44)
+		(at 236.22 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "248b2680-3bb8-457a-81cd-b3b31d54cc55")
@@ -6032,6 +8245,18 @@
 		(uuid "2a4da9c6-23d1-43a4-8906-165784e1f96b")
 	)
 	(junction
+		(at 199.39 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cc8d7b0-1cd5-49df-943e-3f0673007c50")
+	)
+	(junction
+		(at 228.6 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3273a20e-fc80-4225-81db-5110bf220dad")
+	)
+	(junction
 		(at 119.38 36.83)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -6050,6 +8275,12 @@
 		(uuid "451ce699-992b-42bc-ba1c-b894931d78b2")
 	)
 	(junction
+		(at 24.13 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "622dae1b-9eb3-4c15-95a0-b870d2f446be")
+	)
+	(junction
 		(at 119.38 110.49)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -6062,12 +8293,6 @@
 		(uuid "677134f9-7f3b-4e21-90fc-6699f1a7b93a")
 	)
 	(junction
-		(at 158.75 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a4c4019-48c2-4247-81c0-54bac8604d17")
-	)
-	(junction
 		(at 119.38 44.45)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -6078,6 +8303,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "6eb461be-6f87-4fe4-bef6-3182c2d85b1a")
+	)
+	(junction
+		(at 152.4 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71c93914-94dd-4aa3-a4f5-7a760b3f849f")
 	)
 	(junction
 		(at 118.11 135.89)
@@ -6098,7 +8329,7 @@
 		(uuid "7cc3f6bf-9d13-4a30-a38d-008b79f6b301")
 	)
 	(junction
-		(at 208.28 83.82)
+		(at 224.79 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a07b7365-e22f-4937-81a3-cdfad6ce3cdd")
@@ -6122,10 +8353,22 @@
 		(uuid "a5ef3674-6a75-445a-bad5-91600ad7cb6f")
 	)
 	(junction
+		(at 204.47 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab04b929-8150-415f-919e-1e17abd0f2b3")
+	)
+	(junction
 		(at 119.38 57.15)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "ad935bbb-0ded-4649-b43f-f015fecda692")
+	)
+	(junction
+		(at 217.17 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0cbf8a3-a483-4bba-95bc-78597165a1b0")
 	)
 	(junction
 		(at 55.88 67.31)
@@ -6134,19 +8377,25 @@
 		(uuid "ba7e08b0-0eb0-49bf-b1f8-a138753b2661")
 	)
 	(junction
+		(at 223.52 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd9a3594-a717-4298-910c-11b12df95e74")
+	)
+	(junction
 		(at 55.88 36.83)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "c2c89e78-bbeb-41a5-b300-d4cef094e69c")
 	)
 	(junction
-		(at 213.36 83.82)
+		(at 229.87 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8166480-cafb-49c7-a1de-4ef4929a5782")
 	)
 	(junction
-		(at 223.52 144.78)
+		(at 240.03 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce771de5-cef4-4b90-b605-1a8effaaefcd")
@@ -6158,13 +8407,25 @@
 		(uuid "cf929481-30e8-4b74-a8f7-166b1a0849ca")
 	)
 	(junction
-		(at 226.06 144.78)
+		(at 139.7 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d37ac5bd-4c46-4185-9529-2b5768bb17ad")
+	)
+	(junction
+		(at 242.57 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5d17125-5a42-4231-acc1-76a0045cb7b7")
 	)
 	(junction
-		(at 210.82 100.33)
+		(at 228.6 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dadf35a4-6723-4680-ad9d-adcac4c04c6d")
+	)
+	(junction
+		(at 227.33 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db1de4f1-b6d0-4d3f-85a9-e2f1c4d503d1")
@@ -6188,7 +8449,7 @@
 		(uuid "ee93d7bb-a595-48ca-9c58-a533ed565368")
 	)
 	(junction
-		(at 208.28 100.33)
+		(at 224.79 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4e01508-3ad4-4e14-ae9b-5731b087f331")
@@ -6198,6 +8459,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "f60a86b6-c983-4c8c-bf81-c401180e2a5f")
+	)
+	(junction
+		(at 257.81 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbbe2549-60de-4abb-8379-8ffeabe71405")
 	)
 	(no_connect
 		(at 118.11 143.51)
@@ -6232,7 +8499,7 @@
 		(uuid "29e46b58-3d62-495f-90de-1522ca78b373")
 	)
 	(no_connect
-		(at 210.82 144.78)
+		(at 227.33 153.67)
 		(uuid "406e117d-f541-467f-aa7d-1b97e7abf3f6")
 	)
 	(no_connect
@@ -6252,11 +8519,11 @@
 		(uuid "5737db30-9abd-4cd3-981f-63dc71d3beb8")
 	)
 	(no_connect
-		(at 215.9 144.78)
+		(at 232.41 153.67)
 		(uuid "64104037-14db-4e5b-9abc-886e70af1c64")
 	)
 	(no_connect
-		(at 208.28 144.78)
+		(at 224.79 153.67)
 		(uuid "6a884362-d4be-4cf6-97a3-31638a602ff9")
 	)
 	(no_connect
@@ -6316,7 +8583,7 @@
 		(uuid "ce0f27ea-0fe7-46e2-9eb7-3451247e5c3d")
 	)
 	(no_connect
-		(at 213.36 144.78)
+		(at 229.87 153.67)
 		(uuid "ce4cc4a2-925f-4a1f-b095-325e3cae7c48")
 	)
 	(no_connect
@@ -6332,7 +8599,7 @@
 		(uuid "d51327a2-3b53-4e12-9f6a-cf2a1493ecad")
 	)
 	(no_connect
-		(at 241.3 127)
+		(at 257.81 135.89)
 		(uuid "d63a4fb2-bffd-449d-a20a-8ce0e930c57d")
 	)
 	(no_connect
@@ -6352,7 +8619,7 @@
 		(uuid "f4719bfd-263b-4200-b876-6149be185ac1")
 	)
 	(no_connect
-		(at 241.3 124.46)
+		(at 257.81 133.35)
 		(uuid "f52aec87-8ab8-4f1a-b4c1-42d1eb3a3bcc")
 	)
 	(no_connect
@@ -6385,13 +8652,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 135.89 99.06)
+			(xy 139.7 93.98) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03b4224d-e48e-46f6-91cf-7daa30aa6c2a")
+		(uuid "029f1f68-331b-41fb-b13e-73fb8eda70d1")
 	)
 	(wire
 		(pts
@@ -6415,6 +8682,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 40.64) (xy 223.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044820c4-7c6c-4b8e-9f1f-d5ccb0461c63")
+	)
+	(wire
+		(pts
 			(xy 119.38 44.45) (xy 119.38 57.15)
 		)
 		(stroke
@@ -6435,6 +8712,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 62.23) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063c73fb-fad6-4b7c-9c01-3b0c4571cd29")
+	)
+	(wire
+		(pts
 			(xy 41.91 59.69) (xy 57.15 59.69)
 		)
 		(stroke
@@ -6442,6 +8729,26 @@
 			(type default)
 		)
 		(uuid "07b9cab5-6b2d-4f52-a42c-c4356a04d37f")
+	)
+	(wire
+		(pts
+			(xy 217.17 57.15) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a20fd4a-6608-4947-8d74-70afd40aaacd")
+	)
+	(wire
+		(pts
+			(xy 257.81 138.43) (xy 257.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3a8078-045c-4f01-8532-dd754a0afe45")
 	)
 	(wire
 		(pts
@@ -6505,7 +8812,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 91.44) (xy 226.06 91.44)
+			(xy 236.22 105.41) (xy 242.57 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6515,7 +8822,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 100.33) (xy 213.36 100.33)
+			(xy 227.33 109.22) (xy 229.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6565,13 +8872,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 57.15) (xy 172.72 57.15)
+			(xy 228.6 27.94) (xy 228.6 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28c9f2f9-0f98-4427-859c-6d32f747a78e")
+		(uuid "287ea167-3831-4e2d-a08b-63c88d3482cc")
 	)
 	(wire
 		(pts
@@ -6585,7 +8892,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 124.46) (xy 200.66 124.46)
+			(xy 207.01 133.35) (xy 217.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6605,23 +8912,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 144.78) (xy 223.52 144.78)
+			(xy 237.49 153.67) (xy 240.03 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2be53616-b045-44ce-835b-c36007ce93a2")
-	)
-	(wire
-		(pts
-			(xy 118.11 125.73) (xy 127 125.73)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "2d3dadc0-c690-4832-aa35-a4ab042bbbbd")
 	)
 	(wire
 		(pts
@@ -6635,6 +8932,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 125.73) (xy 118.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "30486fca-bbc0-4df9-a37f-b6f541ba727a")
+	)
+	(wire
+		(pts
 			(xy 55.88 67.31) (xy 55.88 80.01)
 		)
 		(stroke
@@ -6645,7 +8952,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 144.78) (xy 228.6 144.78)
+			(xy 139.7 93.98) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ce906d-b859-485c-96d9-edfd70bfb78f")
+	)
+	(wire
+		(pts
+			(xy 242.57 153.67) (xy 245.11 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6655,7 +8972,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 135.89 96.52)
+			(xy 130.81 96.52) (xy 152.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6685,6 +9002,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 66.04) (xy 204.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a7e61f-4ea0-49d1-844c-48fd2bb04d76")
+	)
+	(wire
+		(pts
 			(xy 119.38 118.11) (xy 119.38 158.75)
 		)
 		(stroke
@@ -6692,6 +9019,26 @@
 			(type solid)
 		)
 		(uuid "3dadd077-e839-4e4a-b7ec-534d223091dc")
+	)
+	(wire
+		(pts
+			(xy 228.6 49.53) (xy 229.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4014b0de-5a20-4c73-85bd-83f110ca2996")
+	)
+	(wire
+		(pts
+			(xy 213.36 57.15) (xy 217.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4077c426-11ea-42fc-addd-88a207c194b7")
 	)
 	(wire
 		(pts
@@ -6705,7 +9052,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 43.18) (xy 158.75 52.07)
+			(xy 228.6 59.69) (xy 229.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455558c0-1c08-4250-a627-03da49a6cdc0")
+	)
+	(wire
+		(pts
+			(xy 199.39 49.53) (xy 199.39 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6715,17 +9072,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 148.59) (xy 167.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4710ebd5-d103-4e0e-bfcd-019dc08ea8a6")
-	)
-	(wire
-		(pts
-			(xy 223.52 144.78) (xy 224.79 144.78)
+			(xy 240.03 153.67) (xy 241.3 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6755,6 +9102,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 133.35) (xy 24.13 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad74fbb-4f40-420e-9f64-44b9fc704260")
+	)
+	(wire
+		(pts
 			(xy 134.62 54.61) (xy 134.62 49.53)
 		)
 		(stroke
@@ -6762,16 +9119,6 @@
 			(type solid)
 		)
 		(uuid "4e6f2ea7-fbfd-4968-a46e-a5c16dd2c02b")
-	)
-	(wire
-		(pts
-			(xy 43.18 125.73) (xy 57.15 125.73)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "52d82ce4-5319-4f9e-9c94-6ecdfe9c5bbb")
 	)
 	(wire
 		(pts
@@ -6815,6 +9162,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 52.07) (xy 204.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631ac747-d5db-4619-b3a8-b7a459e7dedb")
+	)
+	(wire
+		(pts
 			(xy 34.29 90.17) (xy 57.15 90.17)
 		)
 		(stroke
@@ -6835,7 +9192,27 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 115.57) (xy 177.8 119.38)
+			(xy 24.13 121.92) (xy 24.13 125.73)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "65da9630-01b3-4c5c-b233-1bb288cc3149")
+	)
+	(wire
+		(pts
+			(xy 257.81 142.24) (xy 257.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663cdbd1-20fb-4568-a219-d12395c3870b")
+	)
+	(wire
+		(pts
+			(xy 194.31 124.46) (xy 194.31 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6865,7 +9242,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 127) (xy 200.66 127)
+			(xy 207.01 135.89) (xy 217.17 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6885,7 +9262,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 91.44) (xy 219.71 91.44)
+			(xy 229.87 105.41) (xy 236.22 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6935,7 +9312,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 144.78) (xy 226.06 144.78)
+			(xy 217.17 57.15) (xy 217.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe46dc8-8f4c-4b48-b5af-1ae8e0c72484")
+	)
+	(wire
+		(pts
+			(xy 241.3 153.67) (xy 242.57 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6945,13 +9332,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 208.28 100.33)
+			(xy 224.79 97.79) (xy 224.79 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8252892e-f63d-465e-9818-d467dd056a5c")
+	)
+	(wire
+		(pts
+			(xy 152.4 110.49) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d51d1a-51eb-4b0d-9a13-1f40f5f5c417")
 	)
 	(wire
 		(pts
@@ -6985,7 +9382,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 172.72 54.61)
+			(xy 228.6 54.61) (xy 229.87 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7015,6 +9412,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 123.19) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "888a0983-7d0d-44f4-a231-dc0b175fac99")
+	)
+	(wire
+		(pts
 			(xy 43.18 130.81) (xy 57.15 130.81)
 		)
 		(stroke
@@ -7025,7 +9432,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 171.45 62.23)
+			(xy 228.6 54.61) (xy 228.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7035,7 +9442,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 105.41) (xy 177.8 107.95)
+			(xy 194.31 114.3) (xy 194.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7075,6 +9482,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 52.07) (xy 229.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a2234a-7c10-4d18-97b6-8c793d2c46e8")
+	)
+	(wire
+		(pts
 			(xy 55.88 110.49) (xy 57.15 110.49)
 		)
 		(stroke
@@ -7105,7 +9522,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 121.92) (xy 241.3 121.92)
+			(xy 252.73 130.81) (xy 257.81 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7115,7 +9532,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 119.38) (xy 200.66 119.38)
+			(xy 194.31 128.27) (xy 217.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7155,13 +9572,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 134.62 100.33)
+			(xy 167.64 99.06) (xy 167.64 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a06cc7db-691f-40f4-b58e-3ac8ced2f446")
+	)
+	(wire
+		(pts
+			(xy 223.52 27.94) (xy 228.6 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09a3a41-6c4d-4cd2-9f8f-4e707536b49d")
 	)
 	(wire
 		(pts
@@ -7175,16 +9602,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 49.53) (xy 172.72 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a21f9daf-32f5-4edf-8bb7-ede0a730bb7d")
-	)
-	(wire
-		(pts
 			(xy 118.11 82.55) (xy 119.38 82.55)
 		)
 		(stroke
@@ -7195,7 +9612,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 93.98) (xy 135.89 93.98)
+			(xy 173.99 148.59) (xy 165.1 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d34414-845c-4531-b791-43bcfbe7f02b")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7215,7 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 91.44) (xy 219.71 92.71)
+			(xy 236.22 105.41) (xy 236.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7245,13 +9672,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 35.56) (xy 158.75 34.29)
+			(xy 139.7 109.22) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af48b452-c54f-4afe-989b-cc6b13a46ada")
+	)
+	(wire
+		(pts
+			(xy 199.39 41.91) (xy 199.39 40.64)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "b1059ba0-7b2d-4dee-8349-c978ca58da91")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56db0f2-9f29-4247-82cb-d5068ee35684")
 	)
 	(wire
 		(pts
@@ -7265,7 +9712,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 81.28) (xy 208.28 83.82)
+			(xy 199.39 52.07) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88dc8c8-1b41-4c38-abff-ffdd238efacf")
+	)
+	(wire
+		(pts
+			(xy 224.79 95.25) (xy 224.79 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7305,13 +9762,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 52.07) (xy 172.72 52.07)
+			(xy 223.52 29.21) (xy 223.52 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4811982-3879-48d6-a0e4-aa409a6e9c3d")
+		(uuid "c2aeec42-cd20-4fb6-a5d5-8e5fbc8423fa")
 	)
 	(wire
 		(pts
@@ -7345,7 +9802,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 100.33) (xy 210.82 100.33)
+			(xy 224.79 109.22) (xy 227.33 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7395,13 +9852,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 121.92) (xy 200.66 121.92)
+			(xy 207.01 130.81) (xy 217.17 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d328a44b-fb1c-444a-b3e7-daac23572649")
+	)
+	(wire
+		(pts
+			(xy 24.13 125.73) (xy 57.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d43d9537-162e-43ad-a523-ef1453b2851b")
 	)
 	(wire
 		(pts
@@ -7435,7 +9902,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 144.78) (xy 224.79 147.32)
+			(xy 228.6 59.69) (xy 228.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72fa561-0f69-4569-becd-0c62aac2cd90")
+	)
+	(wire
+		(pts
+			(xy 241.3 153.67) (xy 241.3 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7452,16 +9929,6 @@
 			(type solid)
 		)
 		(uuid "db077b83-9be2-47b2-ad4e-6a522e7add0b")
-	)
-	(wire
-		(pts
-			(xy 118.11 52.07) (xy 158.75 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd310bb1-483a-4e96-9796-25898f8868d6")
 	)
 	(wire
 		(pts
@@ -7485,7 +9952,27 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 213.36 83.82)
+			(xy 223.52 25.4) (xy 223.52 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dedfeee4-3631-4930-abb5-8f4abb2bd500")
+	)
+	(wire
+		(pts
+			(xy 228.6 62.23) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff9c7ba-6b35-4a00-851c-03416a3b1b6e")
+	)
+	(wire
+		(pts
+			(xy 224.79 97.79) (xy 229.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7495,13 +9982,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 119.38) (xy 241.3 119.38)
+			(xy 252.73 128.27) (xy 257.81 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e28ffa9b-d1f4-4ef3-ab61-7426fffc59d4")
+	)
+	(wire
+		(pts
+			(xy 173.99 144.78) (xy 173.99 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b397c5-4280-4ee6-8b12-53e69a5466f8")
 	)
 	(wire
 		(pts
@@ -7545,7 +10042,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 130.81 93.98)
+			(xy 130.81 93.98) (xy 130.81 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7575,6 +10072,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 96.52) (xy 167.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f099bf3e-951f-4d0b-b6d4-3bded2617072")
+	)
+	(wire
+		(pts
 			(xy 134.62 30.48) (xy 134.62 31.75)
 		)
 		(stroke
@@ -7585,7 +10092,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 83.82) (xy 226.06 83.82)
+			(xy 229.87 97.79) (xy 242.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7632,6 +10139,16 @@
 			(type default)
 		)
 		(uuid "f9fc91ce-6922-45ae-a465-9d08309c612e")
+	)
+	(wire
+		(pts
+			(xy 118.11 52.07) (xy 199.39 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9c1d88-9974-47f2-a280-c9ff2e590606")
 	)
 	(wire
 		(pts
@@ -7794,7 +10311,7 @@
 		(uuid "4e478fab-fa45-497a-a150-93748ad5efd0")
 	)
 	(label "SD_MODE"
-		(at 199.39 119.38 180)
+		(at 215.9 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7824,7 +10341,7 @@
 		(uuid "60493f14-6b23-48f4-9feb-e8f6021109f8")
 	)
 	(label "PCM_FS"
-		(at 199.39 124.46 180)
+		(at 215.9 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7924,7 +10441,7 @@
 		(uuid "8afed145-2e3e-4a4a-b987-99ba46093710")
 	)
 	(label "TACHO"
-		(at 163.83 57.15 0)
+		(at 220.98 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8064,7 +10581,7 @@
 		(uuid "cfaa4662-7457-42e9-b624-7746957f0e84")
 	)
 	(label "PCM_DOUT"
-		(at 199.39 127 180)
+		(at 215.9 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8094,7 +10611,7 @@
 		(uuid "ea6ab309-1ca2-4061-ba24-92c7cfc85343")
 	)
 	(label "PCM_CLK"
-		(at 199.39 121.92 180)
+		(at 215.9 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8123,6 +10640,17 @@
 			(justify right)
 		)
 		(uuid "0a183dfd-cd75-49d7-9c59-9e895b70416c")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 217.17 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11b0ac4c-d18a-4ea0-a4cb-0a6f8db955d0")
 	)
 	(hierarchical_label "CC2"
 		(shape output)
@@ -8170,7 +10698,18 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 224.79 147.32 270)
+		(at 24.13 135.89 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a9820b2-0a9e-4af8-974f-ec1e22168ec8")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 241.3 156.21 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8212,6 +10751,17 @@
 		)
 		(uuid "4a8dbb60-4023-41b2-852f-53528cff7dbf")
 	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 139.7 110.49 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "557a7da7-5a6d-4334-aa37-3f81ecaf77aa")
+	)
 	(hierarchical_label "CC1"
 		(shape output)
 		(at 43.18 146.05 180)
@@ -8225,7 +10775,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 208.28 81.28 90)
+		(at 224.79 95.25 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8269,7 +10819,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 177.8 105.41 90)
+		(at 194.31 114.3 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8291,7 +10841,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 134.62 100.33 270)
+		(at 167.64 101.6 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8335,6 +10885,17 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
+		(at 152.4 110.49 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "973565f7-c703-48f6-a91c-134ce88239e6")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
 		(at 66.04 187.96 270)
 		(effects
 			(font
@@ -8346,29 +10907,29 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 43.18 125.73 180)
+		(at 24.13 121.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9bd2b524-642b-4175-a2e4-15e769f2a0d6")
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 170.18 49.53 180)
+		(at 223.52 25.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9c574f12-33f1-4f02-88c2-26533db20203")
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 127 125.73 0)
+		(at 124.46 123.19 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8401,7 +10962,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 167.64 148.59 0)
+		(at 173.99 144.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8412,7 +10973,18 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 219.71 92.71 270)
+		(at 223.52 40.64 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8bbdd2b-2293-43c4-8c93-7718da758264")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 236.22 106.68 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8420,6 +10992,17 @@
 			(justify right)
 		)
 		(uuid "d28fcab0-add5-4e19-9911-84568ec9dd9a")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 257.81 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5cb6bc7-f8d7-40f0-a280-600111168afb")
 	)
 	(hierarchical_label "SDA0"
 		(shape output)
@@ -8476,6 +11059,17 @@
 		)
 		(uuid "e8a3375b-9496-49b2-8c57-2572e4b41562")
 	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 204.47 66.04 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1027bd5-88a8-420b-9ba0-83ddfde6323e")
+	)
 	(hierarchical_label "PLATFORM_I2C_SCL"
 		(shape bidirectional)
 		(at 35.56 97.79 180)
@@ -8511,7 +11105,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 158.75 34.29 90)
+		(at 199.39 40.64 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8522,7 +11116,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 171.45 62.23 270)
+		(at 228.6 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8543,8 +11137,9 @@
 		(uuid "fecd3980-22e8-4a32-95f3-d5f417413418")
 	)
 	(symbol
+		(lib_name "SM04B-SRSS-TBLFSN_1")
 		(lib_id "SM04B-SRSS-TB:SM04B-SRSS-TBLFSN")
-		(at 172.72 49.53 0)
+		(at 229.87 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8553,7 +11148,7 @@
 		(fields_autoplaced yes)
 		(uuid "08685439-a139-4d94-b415-51828166efb4")
 		(property "Reference" "J7"
-			(at 186.69 52.0699 0)
+			(at 243.84 52.0699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8562,7 +11157,7 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TBLFSN"
-			(at 186.69 54.6099 0)
+			(at 243.84 54.6099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8570,8 +11165,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 49.53 0)
+		(property "Footprint" "SM04B-SRSS-TB:CONN_SM04B_JST"
+			(at 229.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +11176,7 @@
 			)
 		)
 		(property "Datasheet" "SM04B-SRSS-TBLFSN"
-			(at 172.72 49.53 0)
+			(at 229.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +11186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 49.53 0)
+			(at 229.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,13 +11203,180 @@
 		(pin "1"
 			(uuid "76a9cca5-6c29-454e-b48a-d937f7b52c04")
 		)
-		(pin "4"
+		(pin "5"
 			(uuid "ed65a1f3-a8bf-41ef-bb5a-4e2d8364a16b")
 		)
+		(pin "4"
+			(uuid "ba486c06-ed24-4750-ba1c-a852355bfd09")
+		)
+		(pin "6"
+			(uuid "9a7bd89b-0618-4028-bba5-3d98138a5004")
+		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TPD1E05U06DPYR_3")
+		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
+		(at 204.47 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "127aca3d-fded-4141-a44f-67fda75a537c")
+		(property "Reference" "D16"
+			(at 207.772 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 209.804 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UMW"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ed38f38-a189-42bd-9561-1196802cf8af")
+		)
+		(pin "1"
+			(uuid "dee35980-6da3-45ff-bcf4-f4d4f556a60a")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -8744,8 +11506,168 @@
 		)
 	)
 	(symbol
+		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
+		(at 223.52 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e586d88-0aaa-4db2-8874-a17a7a36ead4")
+		(property "Reference" "D9"
+			(at 218.186 32.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 203.962 34.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UMW"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bf7b4ba-e4c2-41e2-b015-534401f28e46")
+		)
+		(pin "1"
+			(uuid "03fba907-566c-4552-9336-4f900f8e7aa0")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 213.36 87.63 0)
+		(at 229.87 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8754,7 +11676,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be602fa-b964-4268-9ddd-66d3d85de17f")
 		(property "Reference" "C35"
-			(at 217.17 86.3599 0)
+			(at 233.68 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +11685,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 217.17 88.8999 0)
+			(at 233.68 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,8 +11693,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.3252 91.44 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 230.8352 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +11703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 87.63 0)
+			(at 229.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +11712,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 213.36 87.63 0)
+			(at 229.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +11727,7 @@
 			(uuid "78efd276-fcc4-4383-95a3-a5c227a627a0")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
 					(reference "C35")
 					(unit 1)
@@ -8838,7 +11760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "CM5:Raspberry-Pi-5-Compute-Module"
 			(at 232.41 111.76 0)
 			(effects
 				(font
@@ -9518,8 +12440,169 @@
 		)
 	)
 	(symbol
+		(lib_name "TPD1E05U06DPYR_1")
+		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
+		(at 139.7 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "538b9f67-a570-4241-97ae-e0969d562300")
+		(property "Reference" "D21"
+			(at 142.748 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 145.034 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UMW"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ebd7f2f-11b6-41a3-9804-1016edb338e3")
+		)
+		(pin "1"
+			(uuid "3ed66714-c75c-4af6-880c-e899ad225262")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 177.8 111.76 0)
+		(at 194.31 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9528,7 +12611,7 @@
 		(fields_autoplaced yes)
 		(uuid "62757824-b069-40fc-a31a-ca078030cfa1")
 		(property "Reference" "R15"
-			(at 180.34 110.4899 0)
+			(at 196.85 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9537,7 +12620,7 @@
 			)
 		)
 		(property "Value" "10k 1%"
-			(at 180.34 113.0299 0)
+			(at 196.85 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,8 +12628,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.022 111.76 90)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 192.532 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +12638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 111.76 0)
+			(at 194.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +12647,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 111.76 0)
+			(at 194.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +12662,7 @@
 			(uuid "89753e3e-62b6-4793-8504-92f7493524ea")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
 					(reference "R15")
 					(unit 1)
@@ -9614,7 +12697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.842 45.72 90)
 			(effects
 				(font
@@ -9712,7 +12795,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 140.97 96.52 0)
+		(at 172.72 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9721,7 +12804,7 @@
 		(fields_autoplaced yes)
 		(uuid "775fb4b1-fd39-430c-9dce-00cdc9ab0697")
 		(property "Reference" "J6"
-			(at 143.51 95.2499 0)
+			(at 175.26 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +12813,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 143.51 97.7899 0)
+			(at 175.26 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,8 +12821,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 96.52 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +12831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +12840,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,9 +12858,170 @@
 			(uuid "dcdedc2a-1ff3-44bd-a914-f48d31572ed1")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TPD1E05U06DPYR_4")
+		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
+		(at 217.17 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "889d69f2-7e93-4797-aad6-8452d536b898")
+		(property "Reference" "D15"
+			(at 220.218 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 222.758 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UMW"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d401e10-9449-4551-8116-b1b0e70049b0")
+		)
+		(pin "1"
+			(uuid "6d684c6f-3d21-46a9-8b12-04cd4fffa31f")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9908,6 +13152,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991255a2-aad0-4d8b-ac23-4b36e29aaea5")
+		(property "Reference" "C46"
+			(at 27.94 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 27.94 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 25.0952 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34154c73-e6c5-49f5-ad80-e3164ea5d824")
+		)
+		(pin "2"
+			(uuid "eda8de5c-5479-48d4-acb8-934cf485d201")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 149.86 148.59 90)
 		(unit 1)
@@ -9934,7 +13248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 149.86 150.368 90)
 			(effects
 				(font
@@ -10031,8 +13345,169 @@
 		)
 	)
 	(symbol
+		(lib_name "TPD1E05U06DPYR_2")
+		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
+		(at 152.4 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7f012c0-7cce-40a6-be9f-13f047384b1c")
+		(property "Reference" "D22"
+			(at 155.702 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 157.988 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TPD1E05U06DPYR:SON65P60X100X45-2N"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UMW"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8104d8a6-00f5-4dbe-bd96-b66d70fbd327")
+		)
+		(pin "1"
+			(uuid "b5f17ade-0e84-4ad2-9bff-02812eee77ce")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 226.06 87.63 0)
+		(at 242.57 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10041,7 +13516,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5aa9f7-e1c2-4a7d-80e2-bbdd95617061")
 		(property "Reference" "C36"
-			(at 229.87 86.3599 0)
+			(at 246.38 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +13525,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 229.87 88.8999 0)
+			(at 246.38 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,8 +13533,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 227.0252 91.44 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 243.5352 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +13543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 87.63 0)
+			(at 242.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +13552,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 226.06 87.63 0)
+			(at 242.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +13577,7 @@
 	)
 	(symbol
 		(lib_id "MAX98357AETE+T:MAX98357AETE+T")
-		(at 200.66 125.73 0)
+		(at 217.17 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10111,7 +13586,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0434b10-bc93-492e-b047-486fdbef83aa")
 		(property "Reference" "IC4"
-			(at 241.3 112.9598 0)
+			(at 257.81 121.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,15 +13594,15 @@
 			)
 		)
 		(property "Value" "MAX98357AETE+T"
-			(at 241.3 115.4998 0)
+			(at 257.81 124.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 237.49 202.87 0)
+		(property "Footprint" "MAX98357AETE+T:QFN50P300X300X80-17N"
+			(at 254 211.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,7 +13612,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf"
-			(at 237.49 302.87 0)
+			(at 254 311.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +13622,7 @@
 			)
 		)
 		(property "Description" "Audio Amplifiers Digital Input Class D Amplifier"
-			(at 200.66 125.73 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +13631,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 237.49 502.87 0)
+			(at 254 511.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +13641,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 237.49 602.87 0)
+			(at 254 611.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +13651,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MAX98357AETE+T"
-			(at 237.49 702.87 0)
+			(at 254 711.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +13661,7 @@
 			)
 		)
 		(property "Mouser Part Number" "700-MAX98357AETE+T"
-			(at 237.49 802.87 0)
+			(at 254 811.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +13671,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX98357AETE%2bT?qs=AAveGqk956HhNpoJjF5x2g%3D%3D"
-			(at 237.49 902.87 0)
+			(at 254 911.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +13681,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MAX98357AETE+T"
-			(at 237.49 1002.87 0)
+			(at 254 1011.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +13691,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/max98357aetet/analog-devices?utm_currency=USD&region=europe"
-			(at 237.49 1102.87 0)
+			(at 254 1111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +13752,7 @@
 			(uuid "2b55c547-478e-40ca-abdb-397ab4df309e")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
 					(reference "IC4")
 					(unit 1)
@@ -10287,7 +13762,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 39.37 0)
+		(at 199.39 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10295,7 +13770,7 @@
 		(dnp no)
 		(uuid "ed4dcbdc-b916-444f-9409-9004231f363c")
 		(property "Reference" "R25"
-			(at 160.528 38.2016 0)
+			(at 201.168 44.5516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,7 +13779,7 @@
 			)
 		)
 		(property "Value" "10K 1%"
-			(at 160.528 40.513 0)
+			(at 201.168 46.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,8 +13787,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.972 39.37 90)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 197.612 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +13797,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 158.75 39.37 0)
+			(at 199.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +13806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 39.37 0)
+			(at 199.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +13815,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 158.75 39.37 0)
+			(at 199.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +13824,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 158.75 39.37 0)
+			(at 199.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +13833,7 @@
 			)
 		)
 		(property "Field7" "Rohm"
-			(at 158.75 39.37 0)
+			(at 199.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +13842,7 @@
 			)
 		)
 		(property "Field6" "MCR01MZPF1002"
-			(at 158.75 39.37 0)
+			(at 199.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +13851,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 10K M1005 1% 63mW"
-			(at 158.75 39.37 0)
+			(at 199.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +13900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "218_2LPSTRF:218-2-GULLWING_CTS"
 			(at 71.12 179.07 0)
 			(effects
 				(font
@@ -10467,7 +13942,7 @@
 			(uuid "c9367caf-572d-4b39-8705-8304f4b3b795")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2"
 					(reference "SW1")
 					(unit 1)
@@ -10477,16 +13952,15 @@
 	)
 	(symbol
 		(lib_id "SM04B-SRSS-TB:SM04B-SRSS-TBLFSN")
-		(at 241.3 119.38 0)
+		(at 257.81 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f68df0a6-e959-4658-a8f9-b15ebb6ad18e")
 		(property "Reference" "J8"
-			(at 255.27 121.9199 0)
+			(at 264.668 145.034 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10495,7 +13969,7 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TBLFSN"
-			(at 255.27 124.4599 0)
+			(at 254 149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10503,8 +13977,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 241.3 119.38 0)
+		(property "Footprint" "SM04B-SRSS-TB:CONN_SM04B_JST"
+			(at 257.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +13988,7 @@
 			)
 		)
 		(property "Datasheet" "SM04B-SRSS-TBLFSN"
-			(at 241.3 119.38 0)
+			(at 257.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,7 +13998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 119.38 0)
+			(at 257.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,6 +14017,12 @@
 		)
 		(pin "4"
 			(uuid "732870ab-a6d6-4f11-80e0-0075bf32f88f")
+		)
+		(pin "5"
+			(uuid "984fbe0e-b3f3-468a-8b53-851802baba95")
+		)
+		(pin "6"
+			(uuid "387b2e81-8659-4c0c-9b01-884d9b892c2b")
 		)
 		(instances
 			(project "hammerhead_sensor_module"

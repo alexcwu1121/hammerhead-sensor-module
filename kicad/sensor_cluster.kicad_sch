@@ -2346,7 +2346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.4548 33.02 0)
 			(effects
 				(font
@@ -2416,7 +2416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 177.292 105.41 90)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.2148 85.09 0)
 			(effects
 				(font
@@ -2556,7 +2556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "B2B-XH-A:CONN_B2B-XH-ALFSN_JST"
 			(at 186.69 33.02 0)
 			(effects
 				(font
@@ -2592,7 +2592,7 @@
 			(uuid "c22789ca-7cb0-4489-9586-0e9a5792b6c6")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/eee24019-9685-4e58-b29e-98c1c045880e"
 					(reference "J9")
 					(unit 1)
@@ -2628,7 +2628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 178.562 54.61 90)
 			(effects
 				(font
@@ -2662,7 +2662,7 @@
 			(uuid "7fdf985b-33c5-47e9-bead-a1ee519ff75a")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/eee24019-9685-4e58-b29e-98c1c045880e"
 					(reference "R16")
 					(unit 1)
@@ -2696,7 +2696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 142.24 82.8548 0)
 			(effects
 				(font
@@ -2766,7 +2766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 98.552 149.86 90)
 			(effects
 				(font
@@ -2834,7 +2834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETQP3M4R7KVN:ETQP3M1R0KVN"
 			(at 165.1 129.21 0)
 			(effects
 				(font
@@ -2976,7 +2976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 70.1548 83.82 0)
 			(effects
 				(font
@@ -3046,7 +3046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "B2B-XH-A:CONN_B2B-XH-ALFSN_JST"
 			(at 185.42 83.82 0)
 			(effects
 				(font
@@ -3279,7 +3279,7 @@
 			(uuid "8ef0d977-5d40-465d-8d1e-4c90b94e76a9")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/eee24019-9685-4e58-b29e-98c1c045880e"
 					(reference "J12")
 					(unit 1)
@@ -3315,7 +3315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 71.4248 33.02 0)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETQP3M4R7KVN:ETQP3M1R0KVN"
 			(at 163.83 180.01 0)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 111.252 149.86 90)
 			(effects
 				(font
@@ -3593,7 +3593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPS92200D1DDCR:DDC0006A_N"
 			(at 115.57 38.1 0)
 			(effects
 				(font
@@ -3641,7 +3641,7 @@
 			(uuid "931c205c-caf8-40db-9777-9720d9e5094a")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/eee24019-9685-4e58-b29e-98c1c045880e"
 					(reference "U5")
 					(unit 1)
@@ -3675,7 +3675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 143.51 32.0548 0)
 			(effects
 				(font
@@ -3709,7 +3709,7 @@
 			(uuid "3e899f57-2154-43fe-9a74-f0ed50bf1cbb")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/eee24019-9685-4e58-b29e-98c1c045880e"
 					(reference "C37")
 					(unit 1)
@@ -3745,7 +3745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.4848 34.29 0)
 			(effects
 				(font
@@ -3815,7 +3815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 56.1848 83.82 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPS92200D1DDCR:DDC0006A_N"
 			(at 114.3 88.9 0)
 			(effects
 				(font

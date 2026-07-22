@@ -2932,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RT6254BHGJ6F:SOT95P280X100-6N"
 			(at 120.65 205.41 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RT6254BHGJ6F:SOT95P280X100-6N"
 			(at 120.65 144.45 0)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 			(uuid "c2c30541-2e90-4c46-9694-eb7de1a79abe")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "IC1")
 					(unit 1)
@@ -3584,7 +3584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "25TQC100MD3:16TDC150MYF"
 			(at -46.66 58.42 0)
 			(effects
 				(font
@@ -3690,7 +3690,7 @@
 			(uuid "caf679b1-823c-46b0-844e-b11d1210354e")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "C1")
 					(unit 1)
@@ -3726,7 +3726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BLM21PG300SN1D:BEADC2012X105N"
 			(at 318.44 93.98 0)
 			(effects
 				(font
@@ -3832,7 +3832,7 @@
 			(uuid "ac982a3b-f6e0-40c4-a51c-8ed1e342a48a")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "FB1")
 					(unit 1)
@@ -3866,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETQP3M4R7KVN:ETQP3M1R0KVN"
 			(at 160.02 206.68 0)
 			(effects
 				(font
@@ -4006,7 +4006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETQP3M4R7KVN:ETQP3M1R0KVN"
 			(at 160.02 145.72 0)
 			(effects
 				(font
@@ -4112,7 +4112,7 @@
 			(uuid "8ff56a7c-8eff-4337-9149-bfab231295dc")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "L1")
 					(unit 1)
@@ -4423,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TLV75733PDBVR:DBV0005A_N"
 			(at 111.76 170.18 0)
 			(effects
 				(font
@@ -4468,7 +4468,7 @@
 			(uuid "041b90a5-fc44-4017-882d-7ab478ea4ce7")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "U3")
 					(unit 1)
@@ -4644,7 +4644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 88.5952 170.18 0)
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 			(uuid "2148e687-95ff-49da-9ee0-e1a686a5664e")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "C30")
 					(unit 1)
@@ -4853,7 +4853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "25TQC100MD3:16TDC150MYF"
 			(at -46.66 119.38 0)
 			(effects
 				(font
@@ -4995,7 +4995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.2352 170.18 0)
 			(effects
 				(font
@@ -5135,7 +5135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "10TPE220ML:16TDC150MYF"
 			(at 127.33 58.42 0)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 			(uuid "3c1f4271-61eb-4882-b86d-fbe160637286")
 		)
 		(instances
-			(project ""
+			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "C3")
 					(unit 1)
@@ -5553,7 +5553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "10TPE220ML:16TDC150MYF"
 			(at 142.57 119.38 0)
 			(effects
 				(font
