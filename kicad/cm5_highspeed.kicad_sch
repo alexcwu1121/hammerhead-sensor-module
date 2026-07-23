@@ -4161,6 +4161,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c98765-f357-43e5-a11c-799fcb4de5d2")
+	)
+	(wire
+		(pts
 			(xy 93.98 88.9) (xy 110.49 88.9)
 		)
 		(stroke
@@ -4621,6 +4631,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 184.15) (xy 138.43 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674f08b4-1390-4b76-82c9-9838d9749c6c")
+	)
+	(wire
+		(pts
 			(xy 30.48 132.08) (xy 33.02 132.08)
 		)
 		(stroke
@@ -4691,6 +4711,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 185.42) (xy 133.35 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703c9028-23de-44cf-a1f9-53b7b4982a5b")
+	)
+	(wire
+		(pts
 			(xy 93.98 109.22) (xy 96.52 109.22)
 		)
 		(stroke
@@ -4758,16 +4788,6 @@
 			(type solid)
 		)
 		(uuid "782d4a77-739d-4be2-a3ba-7256f15c82ee")
-	)
-	(wire
-		(pts
-			(xy 133.35 107.95) (xy 138.43 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7849700a-74a6-438a-ae5f-51bcac311999")
 	)
 	(wire
 		(pts
@@ -4988,16 +5008,6 @@
 			(type solid)
 		)
 		(uuid "a1b6ddbe-9936-4caa-8cd9-a392fc9591f5")
-	)
-	(wire
-		(pts
-			(xy 133.35 184.15) (xy 138.43 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2a7153e-a26a-4fe5-88f5-08a6fb87d7a9")
 	)
 	(wire
 		(pts
@@ -5388,6 +5398,16 @@
 			(type solid)
 		)
 		(uuid "fd93c7d5-93aa-48f6-aa78-7b7ba48806d2")
+	)
+	(wire
+		(pts
+			(xy 133.35 109.22) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5188e7-6fc1-499e-bc39-030fe809341b")
 	)
 	(label "HDMI1_CK_P"
 		(at 16.51 111.76 0)
@@ -5983,7 +6003,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 133.35 107.95 180)
+		(at 133.35 109.22 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5994,7 +6014,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 133.35 184.15 180)
+		(at 133.35 185.42 270)
 		(effects
 			(font
 				(size 1.27 1.27)

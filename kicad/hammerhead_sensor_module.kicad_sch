@@ -3553,6 +3553,31 @@
 		)
 		(uuid "03984b1c-ae58-403e-bfaa-50f6f70456c0")
 	)
+	(text "**SMBJ TVS/surge diodes\n\nIEC 61000-4-2 level 4\n	contact discharge: 30kV\n	air-gap discharge: 30kV\n\nIEC 61000-4-5 peak pulse power: 600W"
+		(exclude_from_sim no)
+		(at 95.758 37.338 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "132369dc-6185-4cf8-99ca-6720284963de")
+	)
+	(text "**TPDxE05U06 TVS diodes on all connector data signals\n\nIEC 61000-4-2 level 4\n	contact discharge: 12kV\n	air-gap discharge: 15kV\n\nIEC 61000-4-5 peak pulse power: 40W"
+		(exclude_from_sim no)
+		(at 31.242 62.23 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5049f639-22ed-4943-9672-634f4c93c476")
+	)
 	(text "Discharge Resistor\nNeeded by some\nType C PSUs"
 		(exclude_from_sim no)
 		(at 211.074 19.304 0)
@@ -3714,7 +3739,7 @@
 		(uuid "432bc2b9-aa6b-49cf-b600-775ab120a434")
 	)
 	(junction
-		(at 116.84 30.48)
+		(at 146.05 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611de7da-fc56-4c57-b3a2-8fc1c7e485aa")
@@ -3738,7 +3763,7 @@
 		(uuid "968e1a86-8027-4c5e-824a-69c5151fa04e")
 	)
 	(junction
-		(at 88.9 30.48)
+		(at 118.11 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f22de98-32f2-43bf-8078-bd300206f18a")
@@ -3750,19 +3775,13 @@
 		(uuid "9f8e7c6f-042c-4b9a-b2b9-52c0766577a2")
 	)
 	(junction
-		(at 74.93 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69c05d8-43fa-4f7d-89dc-dbf8357075f1")
-	)
-	(junction
 		(at 243.84 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2c58152-3535-4d5f-a482-cf66670b83eb")
 	)
 	(junction
-		(at 88.9 27.94)
+		(at 118.11 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c438a323-f708-4658-a99d-1ddaf9e3b31c")
@@ -3772,6 +3791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d09d5fc1-f55c-40c6-8bdc-485c77265445")
+	)
+	(junction
+		(at 73.66 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d46d2ce9-db3e-4c8a-900e-061ffd997f9f")
 	)
 	(junction
 		(at 67.31 45.72)
@@ -3865,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 30.48) (xy 116.84 45.72)
+			(xy 146.05 30.48) (xy 146.05 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3895,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 27.94) (xy 121.92 27.94)
+			(xy 142.24 27.94) (xy 151.13 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4005,16 +4030,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 27.94) (xy 88.9 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28bd7dc4-5b27-4f9f-b960-16cf50a7cdca")
-	)
-	(wire
-		(pts
 			(xy 154.94 58.42) (xy 154.94 143.51)
 		)
 		(stroke
@@ -4025,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 30.48) (xy 121.92 30.48)
+			(xy 146.05 30.48) (xy 151.13 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 30.48) (xy 116.84 30.48)
+			(xy 142.24 30.48) (xy 146.05 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4175,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 27.94) (xy 92.71 27.94)
+			(xy 118.11 27.94) (xy 121.92 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4235,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 26.67) (xy 88.9 27.94)
+			(xy 118.11 26.67) (xy 118.11 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4495,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 25.4) (xy 121.92 25.4)
+			(xy 142.24 25.4) (xy 151.13 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4605,6 +4620,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 27.94) (xy 118.11 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa41293-16df-4f04-a3c7-7962a2d56717")
+	)
+	(wire
+		(pts
 			(xy 166.37 96.52) (xy 166.37 60.96)
 		)
 		(stroke
@@ -4635,7 +4660,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 27.94) (xy 74.93 27.94)
+			(xy 31.75 27.94) (xy 73.66 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4655,7 +4680,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 30.48) (xy 92.71 30.48)
+			(xy 118.11 30.48) (xy 121.92 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4745,7 +4770,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 30.48) (xy 88.9 30.48)
+			(xy 31.75 30.48) (xy 118.11 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4845,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 31.75) (xy 88.9 30.48)
+			(xy 118.11 31.75) (xy 118.11 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4915,7 +4940,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 45.72) (xy 116.84 45.72)
+			(xy 67.31 45.72) (xy 146.05 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7355,7 +7380,7 @@
 		)
 	)
 	(label "3.3V"
-		(at 114.3 30.48 0)
+		(at 143.51 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7405,7 +7430,7 @@
 		(uuid "0d7cc324-d056-4c4c-b7c9-77ffd7975aad")
 	)
 	(label "5V"
-		(at 114.3 25.4 0)
+		(at 143.51 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7625,7 +7650,7 @@
 		(uuid "95ac0e3d-9ad7-4f43-b1aa-164b3f03f8c0")
 	)
 	(label "4V"
-		(at 114.3 27.94 0)
+		(at 143.51 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7906,7 +7931,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 74.93 38.1 270)
+		(at 73.66 38.1 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7916,7 +7941,7 @@
 		)
 		(uuid "4b6a8032-31bf-47b2-b6a6-177f152a7692")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 43.8444 90)
+			(at 73.66 43.8444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +8041,7 @@
 	)
 	(global_label "3.3V"
 		(shape passive)
-		(at 121.92 30.48 0)
+		(at 151.13 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8026,7 +8051,7 @@
 		)
 		(uuid "5ede02f9-3083-4002-b80f-9f7630b99342")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.9063 30.48 0)
+			(at 157.1163 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8085,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 88.9 31.75 270)
+		(at 118.11 31.75 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8070,7 +8095,7 @@
 		)
 		(uuid "6cfbe53a-e0df-41c8-9aba-21126cefaf93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 37.4944 90)
+			(at 118.11 37.4944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8393,7 @@
 	)
 	(global_label "4V"
 		(shape passive)
-		(at 121.92 27.94 0)
+		(at 151.13 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8378,7 +8403,7 @@
 		)
 		(uuid "dfa43fba-5f4c-40e2-8697-da2f62e74e01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.092 27.94 0)
+			(at 155.302 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +8415,7 @@
 	)
 	(global_label "5V"
 		(shape passive)
-		(at 121.92 25.4 0)
+		(at 151.13 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8400,7 +8425,7 @@
 		)
 		(uuid "f587656b-e426-4917-9130-d11bfc4cb6ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.092 25.4 0)
+			(at 155.302 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8459,7 @@
 	)
 	(global_label "14.8V"
 		(shape passive)
-		(at 88.9 26.67 90)
+		(at 118.11 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8444,7 +8469,7 @@
 		)
 		(uuid "fa4d5ef2-d2b6-43eb-b4a4-a78f2b8e8e4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 19.4742 90)
+			(at 118.11 19.4742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +9998,7 @@
 	)
 	(symbol
 		(lib_id "SMBJ18A:SMBJ18A")
-		(at 74.93 33.02 90)
+		(at 73.66 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9982,7 +10007,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9da71e5-bdde-45a5-802b-347685e79165")
 		(property "Reference" "D11"
-			(at 77.47 31.7499 90)
+			(at 76.2 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +10016,7 @@
 			)
 		)
 		(property "Value" "SMBJ18A"
-			(at 77.47 34.2899 90)
+			(at 76.2 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +10025,7 @@
 			)
 		)
 		(property "Footprint" "SMBJ18A:DIOM5436X261N"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +10053,7 @@
 			)
 		)
 		(property "MF" "Littelfuse Inc."
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10038,7 +10063,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.61"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +10073,7 @@
 			)
 		)
 		(property "CREATOR" "ASHISH"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10083,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +10093,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10103,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SMBJ18A/Littelfuse/view-part/?ref=eda"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10113,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +10123,7 @@
 			)
 		)
 		(property "PARTREV" "JC.07/04/25 v4"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10108,7 +10133,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10143,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMBJ18A/Littelfuse/view-part/?ref=snap"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,7 +10153,7 @@
 			)
 		)
 		(property "MP" "SMBJ18A"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10163,7 @@
 			)
 		)
 		(property "Description_1" "TVS Diode, 600W, 18V, -65 to 150 Operating Temp, Surface Mount, SMBJ Series | Littelfuse SMBJ18A"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10173,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10158,7 +10183,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Littelfuse"
-			(at 74.93 33.02 0)
+			(at 73.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +11182,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 22.86)
+		(at 121.92 22.86)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11173,7 +11198,7 @@
 		)
 		(uuid "8293f066-7499-4d50-94d4-999fc085e2c1")
 		(property "Sheetname" "Power"
-			(at 92.71 22.1484 0)
+			(at 121.92 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +11207,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 92.71 33.6046 0)
+			(at 121.92 33.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11191,7 +11216,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 113.03 25.4 0)
+			(at 142.24 25.4 0)
 			(uuid "4f3c913e-641a-41a7-aa00-e97851702004")
 			(effects
 				(font
@@ -11201,7 +11226,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 92.71 30.48 180)
+			(at 121.92 30.48 180)
 			(uuid "bd133c16-925a-445a-b628-01b426039ed7")
 			(effects
 				(font
@@ -11211,7 +11236,7 @@
 			)
 		)
 		(pin "4V" output
-			(at 113.03 27.94 0)
+			(at 142.24 27.94 0)
 			(uuid "6640410b-cd25-4742-8519-a8990943e8df")
 			(effects
 				(font
@@ -11221,7 +11246,7 @@
 			)
 		)
 		(pin "14.8V" input
-			(at 92.71 27.94 180)
+			(at 121.92 27.94 180)
 			(uuid "1088f7de-3b51-4c19-85b6-e7651d48a6f5")
 			(effects
 				(font
@@ -11231,7 +11256,7 @@
 			)
 		)
 		(pin "3.3V" output
-			(at 113.03 30.48 0)
+			(at 142.24 30.48 0)
 			(uuid "c9287db1-b3d9-4d8d-833c-41187b900f51")
 			(effects
 				(font

@@ -295,7 +295,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -43.18 0)
+					(at 0 -38.1 0)
 					(length 7.62)
 					(name "SCL"
 						(effects
@@ -1957,6 +1957,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CM5 has internal pullups"
+		(exclude_from_sim no)
+		(at 193.04 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b1c8f86-feea-4b2c-9d04-a3da2d0977f4")
+	)
 	(text_box "Micro HDMI0"
 		(exclude_from_sim no)
 		(at 215.9 57.15 0)
@@ -2028,12 +2038,6 @@
 		(uuid "3fce4ffd-a887-4a35-8f54-44eefa210f43")
 	)
 	(junction
-		(at 162.56 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ff78276-a8df-4c42-a859-6886134d412d")
-	)
-	(junction
 		(at 175.26 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2062,6 +2066,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "954ac620-7235-4413-b398-dcbde76b6cca")
+	)
+	(junction
+		(at 162.56 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9beac242-ad98-4363-93bf-3168c5a3b2d7")
 	)
 	(junction
 		(at 233.68 31.75)
@@ -2361,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 116.84) (xy 204.47 116.84)
+			(xy 162.56 111.76) (xy 204.47 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 162.56 116.84)
+			(xy 162.56 66.04) (xy 162.56 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 116.84) (xy 162.56 116.84)
+			(xy 41.91 111.76) (xy 162.56 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +2919,7 @@
 	)
 	(hierarchical_label "HDMI_SCL"
 		(shape input)
-		(at 41.91 116.84 180)
+		(at 41.91 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)

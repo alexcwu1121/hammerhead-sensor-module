@@ -8066,6 +8066,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: Consider adding\nrtc battery"
+		(exclude_from_sim no)
+		(at 41.402 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ebab933-cdec-4def-b01d-f676e0f63523")
+	)
 	(text "Pullup added for\nFans that don't have a\nstrong internal pullup "
 		(exclude_from_sim no)
 		(at 186.436 45.974 0)
@@ -8078,7 +8088,7 @@
 	)
 	(text "QUESTION: Need ESD protection\non speaker amplifier outputs?"
 		(exclude_from_sim no)
-		(at 265.938 116.332 0)
+		(at 265.938 122.174 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8088,7 +8098,7 @@
 	)
 	(text "Left word\noutput only"
 		(exclude_from_sim no)
-		(at 212.09 120.904 0)
+		(at 211.836 122.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8138,7 +8148,7 @@
 	)
 	(text_box "Speaker"
 		(exclude_from_sim no)
-		(at 231.14 92.71 0)
+		(at 231.14 85.09 0)
 		(size 10.16 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8215,7 +8225,7 @@
 		(uuid "24811e2d-a320-4e57-a8ed-b9917f39d1fc")
 	)
 	(junction
-		(at 236.22 105.41)
+		(at 236.22 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "248b2680-3bb8-457a-81cd-b3b31d54cc55")
@@ -8329,12 +8339,6 @@
 		(uuid "7cc3f6bf-9d13-4a30-a38d-008b79f6b301")
 	)
 	(junction
-		(at 224.79 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a07b7365-e22f-4937-81a3-cdfad6ce3cdd")
-	)
-	(junction
 		(at 55.88 80.01)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -8389,7 +8393,13 @@
 		(uuid "c2c89e78-bbeb-41a5-b300-d4cef094e69c")
 	)
 	(junction
-		(at 229.87 97.79)
+		(at 119.38 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c30403af-a68a-4d99-88c6-ef96cf05c97d")
+	)
+	(junction
+		(at 229.87 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8166480-cafb-49c7-a1de-4ef4929a5782")
@@ -8449,6 +8459,12 @@
 		(uuid "ee93d7bb-a595-48ca-9c58-a533ed565368")
 	)
 	(junction
+		(at 224.79 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2aca8af-4f42-4601-9a14-c9adbb1b4435")
+	)
+	(junction
 		(at 224.79 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8465,10 +8481,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbbe2549-60de-4abb-8379-8ffeabe71405")
-	)
-	(no_connect
-		(at 118.11 143.51)
-		(uuid "0292797b-e8d0-48db-8578-c6838387c693")
 	)
 	(no_connect
 		(at 57.15 87.63)
@@ -8812,7 +8824,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 105.41) (xy 242.57 105.41)
+			(xy 236.22 97.79) (xy 242.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8859,6 +8871,16 @@
 			(type solid)
 		)
 		(uuid "241a5155-dd61-4319-9af3-0aeb3e1a791a")
+	)
+	(wire
+		(pts
+			(xy 118.11 143.51) (xy 119.38 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277b1f48-1e13-433e-8da3-47f68ad42e1b")
 	)
 	(wire
 		(pts
@@ -9012,7 +9034,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.11) (xy 119.38 158.75)
+			(xy 119.38 118.11) (xy 119.38 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9222,6 +9244,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 143.51) (xy 119.38 158.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6c9dce9d-d58f-4458-a57e-0bc9a9858739")
+	)
+	(wire
+		(pts
 			(xy 55.88 80.01) (xy 57.15 80.01)
 		)
 		(stroke
@@ -9262,7 +9294,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 105.41) (xy 236.22 105.41)
+			(xy 229.87 97.79) (xy 236.22 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9332,7 +9364,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 97.79) (xy 224.79 109.22)
+			(xy 224.79 90.17) (xy 224.79 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9642,7 +9674,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 105.41) (xy 236.22 106.68)
+			(xy 236.22 97.79) (xy 236.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9722,7 +9754,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 95.25) (xy 224.79 97.79)
+			(xy 224.79 87.63) (xy 224.79 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9972,7 +10004,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 97.79) (xy 229.87 97.79)
+			(xy 224.79 90.17) (xy 229.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10092,7 +10124,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 97.79) (xy 242.57 97.79)
+			(xy 229.87 90.17) (xy 242.57 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10775,7 +10807,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 224.79 95.25 90)
+		(at 224.79 87.63 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10984,7 +11016,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 236.22 106.68 270)
+		(at 236.22 99.06 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11667,16 +11699,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 101.6 0)
+		(at 229.87 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3be602fa-b964-4268-9ddd-66d3d85de17f")
 		(property "Reference" "C35"
-			(at 233.68 100.3299 0)
+			(at 233.68 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11685,7 +11716,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 233.68 102.8699 0)
+			(at 233.68 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11694,7 +11725,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 230.8352 105.41 0)
+			(at 230.8352 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11703,7 +11734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 101.6 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11712,7 +11743,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 229.87 101.6 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13507,7 +13538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 242.57 101.6 0)
+		(at 242.57 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13516,7 +13547,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5aa9f7-e1c2-4a7d-80e2-bbdd95617061")
 		(property "Reference" "C36"
-			(at 246.38 100.3299 0)
+			(at 246.38 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,7 +13556,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 246.38 102.8699 0)
+			(at 246.38 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13534,7 +13565,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 243.5352 105.41 0)
+			(at 243.5352 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13543,7 +13574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 101.6 0)
+			(at 242.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13552,7 +13583,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 242.57 101.6 0)
+			(at 242.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13583,10 +13614,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0434b10-bc93-492e-b047-486fdbef83aa")
 		(property "Reference" "IC4"
-			(at 257.81 121.8498 0)
+			(at 240.03 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13594,7 +13624,7 @@
 			)
 		)
 		(property "Value" "MAX98357AETE+T"
-			(at 257.81 124.3898 0)
+			(at 240.03 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
