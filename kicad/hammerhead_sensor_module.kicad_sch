@@ -1093,6 +1093,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3608,6 +3715,26 @@
 		)
 		(uuid "116a3a65-2a59-44c5-94bc-2697a14a1846")
 	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 15.24 179.07 0)
+		(size 13.97 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "44876d70-be50-43a4-8561-12821053edff")
+	)
 	(text_box "USB OTG Connector"
 		(exclude_from_sim no)
 		(at 246.38 34.29 0)
@@ -4030,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 58.42) (xy 154.94 143.51)
+			(xy 157.48 58.42) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4260,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 146.05) (xy 157.48 68.58)
+			(xy 160.02 146.05) (xy 160.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4340,6 +4467,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da4ddf4-51dd-4e09-8373-fdc2ecc522b0")
+	)
+	(wire
+		(pts
 			(xy 130.81 168.91) (xy 173.99 168.91)
 		)
 		(stroke
@@ -4347,6 +4484,16 @@
 			(type default)
 		)
 		(uuid "6ea08f4d-3662-4082-bf81-dec3f1828606")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704c45ed-6665-4d5b-8688-1a7a53c4eb9a")
 	)
 	(wire
 		(pts
@@ -4540,16 +4687,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 99.06) (xy 168.91 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860188d6-8f52-4edb-a323-fdc51fe85418")
-	)
-	(wire
-		(pts
 			(xy 31.75 33.02) (xy 38.1 33.02)
 		)
 		(stroke
@@ -4640,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 58.42) (xy 199.39 58.42)
+			(xy 157.48 58.42) (xy 199.39 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4840,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 68.58) (xy 199.39 68.58)
+			(xy 160.02 68.58) (xy 199.39 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4880,7 +5017,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 146.05) (xy 157.48 146.05)
+			(xy 130.81 146.05) (xy 160.02 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4930,16 +5067,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 166.37 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40b85b0-12f6-4fd3-a973-626d4c88d405")
-	)
-	(wire
-		(pts
 			(xy 67.31 45.72) (xy 146.05 45.72)
 		)
 		(stroke
@@ -4970,7 +5097,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 143.51) (xy 154.94 143.51)
+			(xy 130.81 143.51) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7379,6 +7506,16 @@
 			"FUFQKBQKhUKhUCgUCoVCYVUEQaFQKBQKhUKhUCgUCoV/wP8PN3TYNysZuEkAAAAASUVORK5CYII="
 		)
 	)
+	(label "USB3-0-D_P"
+		(at 59.69 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02343ff1-e5f1-4292-a960-b3eef82a77d8")
+	)
 	(label "3.3V"
 		(at 143.51 30.48 0)
 		(effects
@@ -7459,6 +7596,16 @@
 		)
 		(uuid "1d046b00-590c-46f4-8aaf-3add6eea3821")
 	)
+	(label "SIM_I2C_SDA"
+		(at 129.54 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21719949-19f3-47d7-ba71-42667cf46d7f")
+	)
 	(label "GND"
 		(at 41.91 91.44 0)
 		(effects
@@ -7478,6 +7625,16 @@
 			(justify left bottom)
 		)
 		(uuid "246f8526-de29-4145-b479-342fc7bb4e05")
+	)
+	(label "SIM_UART_TXD"
+		(at 158.75 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a22abf7-03be-4bde-9b2d-16ba99cc9aa8")
 	)
 	(label "USB3-0-D_N"
 		(at 93.98 96.52 180)
@@ -7539,6 +7696,16 @@
 		)
 		(uuid "555350a4-9511-46bb-ba67-26f871b1942d")
 	)
+	(label "USB3-0-D_N"
+		(at 59.69 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e52d3e1-6778-4e76-b12a-556331667ca5")
+	)
 	(label "USB3-0-D_P"
 		(at 93.98 99.06 180)
 		(effects
@@ -7558,6 +7725,26 @@
 			(justify left bottom)
 		)
 		(uuid "5eda3a72-8d51-40cb-bc00-811cb5bff78f")
+	)
+	(label "5V"
+		(at 81.28 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62cec611-4e6d-4786-8449-cd1ace17a118")
+	)
+	(label "3.3V"
+		(at 101.6 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c3b6d85-889a-4c6e-9f1c-c6f02bc92ac2")
 	)
 	(label "SIM_UART_RTS"
 		(at 88.9 168.91 180)
@@ -7619,6 +7806,26 @@
 		)
 		(uuid "7c6643f4-ba85-4718-acf7-8670e8a69645")
 	)
+	(label "SIM_I2C_SCL"
+		(at 129.54 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dce703d-3b8c-48e7-866b-8f1c76e9990e")
+	)
+	(label "14.8V"
+		(at 81.28 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82ff4243-dcc2-4315-ad25-dfe54b1a4e52")
+	)
 	(label "LASER2"
 		(at 132.08 166.37 0)
 		(effects
@@ -7628,6 +7835,26 @@
 			(justify left bottom)
 		)
 		(uuid "85255739-a07e-4236-824a-af3bea1e5c59")
+	)
+	(label "SIM_UART_RXD"
+		(at 158.75 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8836419c-a8aa-48dc-beea-b15d2c410d84")
+	)
+	(label "USB2_P"
+		(at 132.08 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8976df1e-a097-43b7-bf45-16448a27bbb0")
 	)
 	(label "SIM_I2C_SDA"
 		(at 88.9 152.4 180)
@@ -7659,6 +7886,16 @@
 		)
 		(uuid "a03fff63-b919-4e8d-9877-b4774dd5d6fd")
 	)
+	(label "PLATFORM_I2C_SDA"
+		(at 31.75 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a13d6689-0ce6-4a0f-ace2-adf5f10094c2")
+	)
 	(label "IR_LED_DIM"
 		(at 132.08 161.29 0)
 		(effects
@@ -7688,6 +7925,16 @@
 			(justify left bottom)
 		)
 		(uuid "a98a39cb-a190-4516-bc1f-9e42adc81a1c")
+	)
+	(label "PLATFORM_I2C_SCL"
+		(at 31.75 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad2632cb-ec63-4718-b349-605d1a292711")
 	)
 	(label "14.8V"
 		(at 31.75 27.94 0)
@@ -7739,6 +7986,16 @@
 		)
 		(uuid "c4ee5c02-bdf4-44a1-8635-934a15c823ce")
 	)
+	(label "USB2_N"
+		(at 132.08 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c894a427-2648-475e-bb50-3f5448c83bdb")
+	)
 	(label "LASER1"
 		(at 132.08 168.91 0)
 		(effects
@@ -7778,6 +8035,16 @@
 			(justify right bottom)
 		)
 		(uuid "e40dbd89-f77e-4898-8c6d-e9349a57b0a6")
+	)
+	(label "4V"
+		(at 101.6 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb8a1c3a-7f89-4645-b60f-a6bd07b84ea8")
 	)
 	(label "CC1"
 		(at 132.08 143.51 0)
@@ -8480,6 +8747,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "030fc276-aa49-4543-a4ba-dcf2bda527fb")
+		(property "Reference" "TP15"
+			(at 161.29 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 187.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c3a9b48-7f64-4ab1-9e91-d7a108efac39")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "B6B-XH-A:B6B-XH-A")
 		(at 247.65 107.95 0)
 		(unit 1)
@@ -8628,6 +8962,73 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0da1e7e2-88c6-44a1-a4d6-e30d6ef396e3")
+		(property "Reference" "TP16"
+			(at 161.29 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c95ba3-362d-449b-b21d-92adffbdc71b")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -8829,6 +9230,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2249669d-c1df-4782-a42b-4b77f496f368")
+		(property "Reference" "TP9"
+			(at 62.23 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 187.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 64.77 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaee1ae7-8b75-4f92-9200-8ad2f511f585")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37fc4cb1-b433-4a09-ac84-9dbd2eed1e1f")
+		(property "Reference" "TP7"
+			(at 34.29 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.29 187.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 36.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14ec9d6-478d-4dec-a6d7-2e2b560b0b1c")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4502028e-ee9d-4b09-a537-d14688f51aa3")
+		(property "Reference" "TP8"
+			(at 34.29 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.29 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 36.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7a62a01-6a17-469e-bcc7-ba560875c917")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "TPD1E05U06DPYR_2")
 		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
 		(at 49.53 44.45 270)
@@ -8984,6 +9586,73 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46868c6f-6ea9-4c26-a062-381092fc4fdd")
+		(property "Reference" "TP11"
+			(at 83.82 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 187.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4200ca7-5b42-4a3b-9c13-07bb43876fd4")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9351,6 +10020,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8b826c-d214-4568-9af0-4504e54bd837")
+		(property "Reference" "TP14"
+			(at 104.14 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 106.68 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa239787-e559-4597-9935-0ae4e03262ff")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 63.5 46.99 270)
 		(unit 1)
@@ -9414,6 +10150,140 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5364bef-9b31-4a31-83e3-f710b8cf3985")
+		(property "Reference" "TP5"
+			(at 132.08 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 187.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 134.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ffe4237-4c4c-4c2b-a168-3f329056f3ec")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7715de1-9921-424f-acb8-de887a104406")
+		(property "Reference" "TP6"
+			(at 132.08 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 134.62 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1078a8d8-4b41-49cf-a9b4-b6f04e10cbbe")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -9997,6 +10867,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c853b1d9-2f6f-4328-a3ac-860e8a7c3a77")
+		(property "Reference" "TP12"
+			(at 83.82 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d28f9913-fa12-422f-9a93-514b266127d4")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMBJ18A:SMBJ18A")
 		(at 73.66 33.02 90)
 		(unit 1)
@@ -10502,6 +11439,140 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f844967a-b575-4961-bb13-15cddd5d8f32")
+		(property "Reference" "TP10"
+			(at 62.23 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 64.77 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61e44fba-2975-448a-b7a8-6553633737d7")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87356c8-a418-4ced-96b2-170216453b23")
+		(property "Reference" "TP13"
+			(at 104.14 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 187.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d250509d-64be-4d31-b825-4e060969d08b")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP13")
 					(unit 1)
 				)
 			)

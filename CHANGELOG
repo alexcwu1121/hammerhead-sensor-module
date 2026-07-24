@@ -19,10 +19,10 @@ CHANGED
 - Clean up silkscreen
 
 TODO
-- Add power test points
-- Add version and logo silkscreen
-- Add component orientation silkscreen
-- Assign 3D models to pcb footprints
-- Add connector label silkscreen
-- Break out some debug GPIOs into testpoints
+- Add power test points (DONE)
+- Add version and logo silkscreen (DONE)
+- Add component orientation silkscreen (DONE)
+- Assign 3D models to pcb footprints (DONE)
+- Add connector label silkscreen (DONE)
+- Break out some debug GPIOs into testpoints (DONE)
 - Personal schematic and symbol review (DONE)
