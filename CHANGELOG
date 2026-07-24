@@ -25,3 +25,4 @@ TODO
 - Assign 3D models to pcb footprints
 - Add connector label silkscreen
 - Break out some debug GPIOs into testpoints
+- Personal schematic and symbol review (DONE)
