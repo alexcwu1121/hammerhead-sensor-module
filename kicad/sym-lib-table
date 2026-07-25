@@ -8,7 +8,6 @@
   (lib (name "IHLP2525CZER100M01")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_IHLP2525CZER100M01/IHLP2525CZER100M01/KiCad/IHLP2525CZER100M01.kicad_sym")(options "")(descr ""))
   (lib (name "RT6254BHGJ6F")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_RT6254BHGJ6F/RT6254BHGJ6F/KiCad/RT6254BHGJ6F.kicad_sym")(options "")(descr ""))
   (lib (name "ETQP3M4R7KVN")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_ETQP3M4R7KVN/ETQP3M4R7KVN/KiCad/ETQP3M4R7KVN.kicad_sym")(options "")(descr ""))
-  (lib (name "293D107X9016D2TE3")(type "KiCad")(uri "C:/Users/alexc/OneDrive/Documents/personal_projects/sw/hammerhead-turret-controller/kicad/hammerhead_turret_controller/thirdparty/LIB_293D107X9016D2TE3/293D107X9016D2TE3/KiCad/293D107X9016D2TE3.kicad_sym")(options "")(descr ""))
   (lib (name "10TPE220ML")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_10TPE220ML/10TPE220ML/KiCad/10TPE220ML.kicad_sym")(options "")(descr ""))
   (lib (name "25TQC100MD3")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_25TQC100MD3/25TQC100MD3/KiCad/25TQC100MD3.kicad_sym")(options "")(descr ""))
   (lib (name "BLM21PG300SN1D")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_BLM21PG300SN1D/BLM21PG300SN1D/KiCad/BLM21PG300SN1D.kicad_sym")(options "")(descr ""))
@@ -39,4 +38,5 @@
   (lib (name "SMBJ18A")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/SMBJ18A/SMBJ18A.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ5_0A")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/ul_SMBJ5-0A/KiCADv6/2026-06-14_03-42-09.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ33A")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/SMBJ33A/SMBJ33A.kicad_sym")(options "")(descr ""))
+  (lib (name "10164227-1001A1RLF")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_10164227-1001A1RLF/10164227-1001A1RLF/KiCad/10164227-1001A1RLF.kicad_sym")(options "")(descr ""))
 )
