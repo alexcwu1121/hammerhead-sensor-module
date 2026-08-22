@@ -4076,7 +4076,7 @@
 		)
 		(uuid "2b6b24a3-fcd3-442b-8a20-2e3b9d9b9a88")
 	)
-	(hierarchical_label "ID_SD"
+	(hierarchical_label "I2C_SDA_CAM2"
 		(shape input)
 		(at 133.35 175.26 180)
 		(effects
@@ -4219,7 +4219,7 @@
 		)
 		(uuid "d5466cde-1cdb-4666-aea4-939b75310853")
 	)
-	(hierarchical_label "ID_SC"
+	(hierarchical_label "I2C_SCL_CAM2"
 		(shape input)
 		(at 133.35 172.72 180)
 		(effects

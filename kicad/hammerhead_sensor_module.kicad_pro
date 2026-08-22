@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -63,52 +63,7 @@
           "width": 0.13
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|136830000|47870000|a5bdd133-dda1-4f2e-9556-981b93db5cec|9d804c6a-2c2c-4ec9-8174-351f99cff43a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|48670000|9d804c6a-2c2c-4ec9-8174-351f99cff43a|b5fb4cb6-be97-4ba7-b264-4f9c4f12cbaf",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|49370000|74bb0d2f-e94f-4280-a0ff-2e6cf56630ef|b5fb4cb6-be97-4ba7-b264-4f9c4f12cbaf",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|49670000|74bb0d2f-e94f-4280-a0ff-2e6cf56630ef|f44b3b16-4d6e-4346-84e7-4c3477c701af",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|50370000|01e9d22c-b9e0-4ccb-9ba0-2d5b3a5a0025|f44b3b16-4d6e-4346-84e7-4c3477c701af",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|50670000|01e9d22c-b9e0-4ccb-9ba0-2d5b3a5a0025|c9d76120-a062-48b1-8cdb-a2e5b7dd4a30",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|51170000|c9d76120-a062-48b1-8cdb-a2e5b7dd4a30|c4ba28a9-1730-4caf-89e4-f853b27864df",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|51870000|7aa8fca4-b3bc-40a6-bbdf-b0552f0be31e|c4ba28a9-1730-4caf-89e4-f853b27864df",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|52170000|7aa8fca4-b3bc-40a6-bbdf-b0552f0be31e|896489eb-0858-4e34-aec4-7a32046906b5",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|52870000|de7bf2ed-f227-407b-89e7-b115d06d966c|896489eb-0858-4e34-aec4-7a32046906b5",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136830000|53670000|693c13e4-56dc-4fef-ba36-f09418d71031|de7bf2ed-f227-407b-89e7-b115d06d966c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -536,7 +491,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -549,7 +504,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1311,
         "via_diameter": 0.45,
-        "via_drill": 0.3
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -561,7 +516,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1466,
         "via_diameter": 0.45,
-        "via_drill": 0.3
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -573,7 +528,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1849,
         "via_diameter": 0.45,
-        "via_drill": 0.3
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -585,7 +540,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2042,
         "via_diameter": 0.45,
-        "via_drill": 0.3
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -595,7 +550,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
-        "via_drill": 0.3
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -997,6 +952,10 @@
     [
       "77746e1a-f4d3-49a5-93f5-a93fb16cf22c",
       "hdmi"
+    ],
+    [
+      "e36a95e5-70a1-4a6e-8046-6a648ad2ce7f",
+      "CAN Controller and Transceiver"
     ]
   ],
   "text_variables": {}
