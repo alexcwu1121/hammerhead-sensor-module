@@ -10180,6 +10180,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d46921d8-6465-4300-acb4-5f8eee818497")
 		)
@@ -10213,7 +10231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100pF"
 			(at 227.33 67.056 0)
 			(effects
 				(font
@@ -10241,6 +10259,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 229.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -10319,6 +10355,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c2b9478-8659-4b27-a977-d83531ca8c0a")
 		)
@@ -10379,6 +10433,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 48.26 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 48.26 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,6 +10528,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 119.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 119.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e9e8454-0174-4fbe-9a36-e6f23445e54f")
 		)
@@ -10518,6 +10608,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 142.24 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 142.24 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,6 +10793,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c00fa45c-3cfd-43be-b670-7d18e0753ab2")
 		)
@@ -10754,6 +10880,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 31.75 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 31.75 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1786f5b8-5838-4034-9d51-ed42d92386ec")
 		)
@@ -10816,6 +10960,24 @@
 			)
 		)
 		(property "Description" ""
+			(at -5.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at -5.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at -5.08 113.03 0)
 			(effects
 				(font
@@ -10902,6 +11064,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -11095,6 +11275,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a431438c-02f7-4470-951c-85bc219e3418")
 		)
@@ -11157,6 +11355,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 200.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 200.66 24.13 0)
 			(effects
 				(font
@@ -11232,6 +11448,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 97.79 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 97.79 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1706ca96-3d8c-445d-b648-974d2a362871")
 		)
@@ -11292,6 +11526,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 97.79 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 97.79 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11361,6 +11613,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 238.76 73.66 0)
 			(effects
 				(font
@@ -11442,6 +11712,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 46.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 46.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b24b3c5c-962d-4e0b-8feb-4d501fe3730b")
 		)
@@ -11503,6 +11791,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 88.9 125.73 0)
 			(effects
 				(font
@@ -11672,6 +11978,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 148.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 148.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cc97590-859d-4721-88fc-666de2bb25fb")
 		)
@@ -11733,6 +12057,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 144.78 179.07 0)
 			(effects
 				(font
@@ -11803,6 +12145,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -11996,6 +12356,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5bc58e1-8ebb-489f-a353-4a9306fc42c6")
 		)
@@ -12157,6 +12535,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 41.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 41.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c27e834d-580f-46e2-a5d9-317efa9a3332")
 		)
@@ -12219,6 +12615,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 40.64 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 40.64 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,6 +12703,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 226.06 24.13 0)
 			(effects
 				(font
@@ -12458,6 +12890,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55870863-c798-4bd5-a018-8a9a0c663a63")
 		)
@@ -12520,6 +12970,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 121.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 121.92 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 121.92 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,6 +13156,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf169f71-7ee4-4711-b5f4-a7442144c412")
 		)
@@ -12749,6 +13235,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 262.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 262.89 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 262.89 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,6 +13403,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 80.01 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 80.01 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f143e72b-ce5c-4a8e-9a5c-6aa0eebca3d8")
 		)
@@ -13015,6 +13537,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 97.79 59.69 0)
 			(effects
 				(font
@@ -13184,6 +13724,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24998810-f371-4be4-bab2-0675240a35b0")
 		)
@@ -13322,6 +13880,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13593,6 +14169,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 97.79 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 97.79 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5053a114-d30e-46ee-8319-80c3360c7252")
 		)
@@ -13656,6 +14250,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 72.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 72.39 111.76 0)
 			(effects
 				(font
@@ -13757,6 +14369,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 123.19 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 123.19 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b81d2fa7-165c-426f-8c79-716218737403")
 		)
@@ -13816,6 +14446,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 64.77 62.23 0)
 			(effects
 				(font
@@ -13893,6 +14541,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 133.35 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 133.35 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0839f5b2-3ab5-4b85-bc68-d6c6e330a7d0")
 		)
@@ -13956,6 +14622,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -14058,6 +14742,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 213.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 213.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03c3812d-2515-4391-965a-882358d1274f")
 		)
@@ -14128,6 +14830,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 130.81 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 130.81 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97d09e44-a7dd-404c-98ce-ba3322bf1bcc")
 		)
@@ -14188,6 +14908,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 245.11 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 245.11 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)

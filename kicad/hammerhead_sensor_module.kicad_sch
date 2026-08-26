@@ -4812,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 120.65) (xy 173.99 168.91)
+			(xy 173.99 120.65) (xy 173.99 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4992,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 168.91) (xy 173.99 168.91)
+			(xy 130.81 165.1) (xy 173.99 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5012,7 +5012,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 115.57) (xy 168.91 163.83)
+			(xy 168.91 115.57) (xy 168.91 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5162,7 +5162,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 161.29) (xy 166.37 161.29)
+			(xy 130.81 157.48) (xy 166.37 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5202,7 +5202,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 118.11) (xy 171.45 166.37)
+			(xy 130.81 171.45) (xy 146.05 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d7165d-1c2e-4905-a085-e8538e189bef")
+	)
+	(wire
+		(pts
+			(xy 171.45 118.11) (xy 171.45 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5342,7 +5352,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 113.03) (xy 166.37 161.29)
+			(xy 166.37 113.03) (xy 166.37 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5372,7 +5382,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 166.37) (xy 171.45 166.37)
+			(xy 130.81 162.56) (xy 171.45 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5682,7 +5692,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 163.83) (xy 168.91 163.83)
+			(xy 130.81 168.91) (xy 146.05 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de94a57f-d193-4a76-a6e6-9c1e0e1ada45")
+	)
+	(wire
+		(pts
+			(xy 130.81 160.02) (xy 168.91 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8202,7 +8222,7 @@
 		)
 	)
 	(label "USB3-0-D_P"
-		(at 59.69 195.58 180)
+		(at 49.53 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8220,6 +8240,16 @@
 			(justify left bottom)
 		)
 		(uuid "036c94b2-de1d-4edc-b6af-9de57d01c70c")
+	)
+	(label "TEST_GPIO_1"
+		(at 163.83 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05455a91-e119-4675-868f-f2d061e1a677")
 	)
 	(label "I2C_SDA_CAM2"
 		(at 107.95 129.54 90)
@@ -8251,6 +8281,16 @@
 		)
 		(uuid "094bead6-cf34-47ee-bf24-91ce1304e9da")
 	)
+	(label "TEST_GPIO_2"
+		(at 163.83 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ba3e079-8219-4e4e-895b-5843a2f40a5c")
+	)
 	(label "CC2"
 		(at 132.08 146.05 0)
 		(effects
@@ -8260,6 +8300,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d7cc324-d056-4c4c-b7c9-77ffd7975aad")
+	)
+	(label "USB2_P"
+		(at 22.86 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "102026b8-4bce-4b32-8750-0680edbb382c")
 	)
 	(label "5V"
 		(at 133.35 25.4 0)
@@ -8282,7 +8332,7 @@
 		(uuid "1d046b00-590c-46f4-8aaf-3add6eea3821")
 	)
 	(label "SIM_I2C_SDA"
-		(at 129.54 189.23 180)
+		(at 111.76 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8312,7 +8362,7 @@
 		(uuid "246f8526-de29-4145-b479-342fc7bb4e05")
 	)
 	(label "SIM_UART_TXD"
-		(at 158.75 189.23 180)
+		(at 138.43 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8382,7 +8432,7 @@
 		(uuid "555350a4-9511-46bb-ba67-26f871b1942d")
 	)
 	(label "USB3-0-D_N"
-		(at 59.69 189.23 180)
+		(at 49.53 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8412,7 +8462,7 @@
 		(uuid "5eda3a72-8d51-40cb-bc00-811cb5bff78f")
 	)
 	(label "5V"
-		(at 81.28 195.58 180)
+		(at 68.58 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8422,7 +8472,7 @@
 		(uuid "62cec611-4e6d-4786-8449-cd1ace17a118")
 	)
 	(label "3.3V"
-		(at 101.6 195.58 180)
+		(at 86.36 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8450,6 +8500,16 @@
 			(justify right bottom)
 		)
 		(uuid "6e48cf2a-d48c-4d59-a2ef-68bbbc2e1282")
+	)
+	(label "TEST_GPIO_2"
+		(at 132.08 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7075b4f8-a156-4bdc-a26d-9db5cb2a546e")
 	)
 	(label "3.3V"
 		(at 41.91 86.36 0)
@@ -8502,7 +8562,7 @@
 		(uuid "7c6643f4-ba85-4718-acf7-8670e8a69645")
 	)
 	(label "SIM_I2C_SCL"
-		(at 129.54 195.58 180)
+		(at 111.76 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8512,7 +8572,7 @@
 		(uuid "7dce703d-3b8c-48e7-866b-8f1c76e9990e")
 	)
 	(label "14.8V"
-		(at 81.28 189.23 180)
+		(at 68.58 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,7 +8592,7 @@
 		(uuid "84e2ec88-e02e-4ece-bca6-b36b14fb4a5e")
 	)
 	(label "LASER2"
-		(at 132.08 163.83 0)
+		(at 132.08 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8542,7 +8602,7 @@
 		(uuid "85255739-a07e-4236-824a-af3bea1e5c59")
 	)
 	(label "SIM_UART_RXD"
-		(at 158.75 195.58 180)
+		(at 138.43 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8592,7 +8652,7 @@
 		(uuid "a03fff63-b919-4e8d-9877-b4774dd5d6fd")
 	)
 	(label "IR_LED_DIM"
-		(at 132.08 168.91 0)
+		(at 132.08 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8682,7 +8742,7 @@
 		(uuid "c894a427-2648-475e-bb50-3f5448c83bdb")
 	)
 	(label "LASER1"
-		(at 132.08 161.29 0)
+		(at 132.08 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8701,6 +8761,16 @@
 		)
 		(uuid "cbd1d1e0-2ece-469f-bf66-41d53a7a0bcf")
 	)
+	(label "USB2_N"
+		(at 22.86 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db734fb8-f2d9-4d1b-b206-a49ac649f7c9")
+	)
 	(label "SIM_I2C_SCL"
 		(at 88.9 154.94 180)
 		(effects
@@ -8712,7 +8782,7 @@
 		(uuid "e40dbd89-f77e-4898-8c6d-e9349a57b0a6")
 	)
 	(label "4V"
-		(at 101.6 189.23 180)
+		(at 86.36 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8732,7 +8802,7 @@
 		(uuid "f20ca936-4bab-4fa1-acca-9789e223dcd5")
 	)
 	(label "W_LED_DIM"
-		(at 132.08 166.37 0)
+		(at 132.08 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8760,6 +8830,38 @@
 			(justify right bottom)
 		)
 		(uuid "f905e901-31d8-4ee6-b7b6-b70acb4ce75d")
+	)
+	(label "TEST_GPIO_1"
+		(at 132.08 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fefded19-c1f4-4b45-9c26-0066c2b2f952")
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 120.65 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "037f14d0-4daf-4e74-8f86-2183fff523a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 62.8944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3.3V"
 		(shape passive)
@@ -9093,6 +9195,28 @@
 	)
 	(global_label "GND"
 		(shape passive)
+		(at 120.65 45.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79506263-4ae6-429e-b0f9-f114e1df6cd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 51.4644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
 		(at 38.1 49.53 270)
 		(fields_autoplaced yes)
 		(effects
@@ -9126,6 +9250,28 @@
 		(uuid "801478ce-1c23-42b4-a470-c9a07b688acb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.08 97.1844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 135.89 45.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80d365c0-6649-4108-8d95-461ee2ac8ca3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 51.4644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,6 +9435,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape passive)
+		(at 135.89 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c315f17b-ba91-4504-811d-ba3fcb5230e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 62.8944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "4V"
 		(shape passive)
 		(at 48.26 83.82 0)
@@ -9423,7 +9591,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 158.75 189.23 0)
+		(at 138.43 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9432,7 +9600,7 @@
 		(fields_autoplaced yes)
 		(uuid "030fc276-aa49-4543-a4ba-dcf2bda527fb")
 		(property "Reference" "TP15"
-			(at 161.29 184.6579 0)
+			(at 140.97 184.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +9609,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 161.29 187.1979 0)
+			(at 140.97 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9618,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 163.83 189.23 0)
+			(at 143.51 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 189.23 0)
+			(at 143.51 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9636,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 158.75 189.23 0)
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 138.43 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9676,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 158.75 195.58 0)
+		(at 138.43 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9499,7 +9685,7 @@
 		(fields_autoplaced yes)
 		(uuid "0da1e7e2-88c6-44a1-a4d6-e30d6ef396e3")
 		(property "Reference" "TP16"
-			(at 161.29 191.0079 0)
+			(at 140.97 191.0079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9694,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 161.29 193.5479 0)
+			(at 140.97 193.5479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9703,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 163.83 195.58 0)
+			(at 143.51 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 195.58 0)
+			(at 143.51 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9721,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 158.75 195.58 0)
+			(at 138.43 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 138.43 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 138.43 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,7 +9761,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 59.69 189.23 0)
+		(at 49.53 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9566,7 +9770,7 @@
 		(fields_autoplaced yes)
 		(uuid "2249669d-c1df-4782-a42b-4b77f496f368")
 		(property "Reference" "TP9"
-			(at 62.23 184.6579 0)
+			(at 52.07 184.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9779,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 62.23 187.1979 0)
+			(at 52.07 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9788,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 64.77 189.23 0)
+			(at 54.61 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 189.23 0)
+			(at 54.61 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9806,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 59.69 189.23 0)
+			(at 49.53 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 49.53 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 49.53 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,6 +9839,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28891930-280e-4e4b-9be3-e862ed38865f")
+		(property "Reference" "GND1"
+			(at 123.19 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.19 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a8852ba-cbdf-4b0e-8ea1-5862fe7b2eba")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -9768,6 +10075,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35b96554-4e15-4676-88f8-b8d6bccbbc00")
 		)
@@ -9785,7 +10110,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 189.23 0)
+		(at 68.58 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9794,7 +10119,7 @@
 		(fields_autoplaced yes)
 		(uuid "46868c6f-6ea9-4c26-a062-381092fc4fdd")
 		(property "Reference" "TP11"
-			(at 83.82 184.6579 0)
+			(at 71.12 184.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +10128,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 83.82 187.1979 0)
+			(at 71.12 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +10137,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 86.36 189.23 0)
+			(at 73.66 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +10146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 189.23 0)
+			(at 73.66 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +10155,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 81.28 189.23 0)
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 68.58 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,6 +10302,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 210.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 210.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aea02d35-63a5-4b21-b465-970738c6ff51")
 		)
@@ -10022,6 +10383,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 219.71 121.92 0)
 			(effects
 				(font
@@ -10125,6 +10504,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0619a50c-febe-4a26-9ecb-e3694d6ceec8")
 		)
@@ -10135,6 +10532,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69461963-9eee-4672-b0a8-6512abdfe674")
+		(property "Reference" "TP24"
+			(at 166.37 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 166.37 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 168.91 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcbb9367-1d09-4dd3-99c5-3b44ddcf6d4f")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -10188,6 +10670,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 184.15 26.67 0)
 			(effects
 				(font
@@ -10266,6 +10766,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a361a2a6-fd6d-45e1-b8b9-236005bfbd1f")
 		)
@@ -10289,16 +10807,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 101.6 195.58 0)
+		(at 163.83 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d8b826c-d214-4568-9af0-4504e54bd837")
-		(property "Reference" "TP14"
-			(at 104.14 191.0079 0)
+		(uuid "85d67a6f-9eba-4252-a019-68ed1d431120")
+		(property "Reference" "TP23"
+			(at 166.37 184.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10307,7 +10825,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 193.5479 0)
+			(at 166.37 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,7 +10834,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 106.68 195.58 0)
+			(at 168.91 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10325,7 +10843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 195.58 0)
+			(at 168.91 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +10852,195 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 101.6 195.58 0)
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39aaef81-a84a-4ff9-9951-2cbba942eae7")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a591407-d07b-4c8d-8e99-993d0db30676")
+		(property "Reference" "GND2"
+			(at 123.19 52.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.19 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a307529b-11e4-414f-a8f5-289e940b6eae")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8b826c-d214-4568-9af0-4504e54bd837")
+		(property "Reference" "TP14"
+			(at 88.9 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 91.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 86.36 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,16 +11062,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 129.54 189.23 0)
+		(at 22.86 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5364bef-9b31-4a31-83e3-f710b8cf3985")
-		(property "Reference" "TP5"
-			(at 132.08 184.6579 0)
+		(uuid "a409ac1f-ffcb-47cc-b96a-12ea20e3625a")
+		(property "Reference" "TP21"
+			(at 25.4 184.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,7 +11080,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 132.08 187.1979 0)
+			(at 25.4 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +11089,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 134.62 189.23 0)
+			(at 27.94 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +11098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 189.23 0)
+			(at 27.94 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,7 +11107,110 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 129.54 189.23 0)
+			(at 22.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 22.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 22.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b60808-edb3-46c7-b584-677a0c7a84d7")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5364bef-9b31-4a31-83e3-f710b8cf3985")
+		(property "Reference" "TP5"
+			(at 114.3 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 187.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 116.84 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 111.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 111.76 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +11232,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 129.54 195.58 0)
+		(at 111.76 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10432,7 +11241,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7715de1-9921-424f-acb8-de887a104406")
 		(property "Reference" "TP6"
-			(at 132.08 191.0079 0)
+			(at 114.3 191.0079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10441,7 +11250,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 132.08 193.5479 0)
+			(at 114.3 193.5479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10450,7 +11259,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 134.62 195.58 0)
+			(at 116.84 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,7 +11268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 195.58 0)
+			(at 116.84 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,7 +11277,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 129.54 195.58 0)
+			(at 111.76 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 111.76 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 111.76 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,6 +11363,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 217.17 67.31 0)
 			(effects
 				(font
@@ -10728,6 +11573,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c1ef9d3-8850-4d8a-a042-290786c6b93c")
 		)
@@ -10889,6 +11752,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39d82bb8-8935-4b50-89c0-9ad36bb3ac3a")
 		)
@@ -10961,6 +11842,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "249604fc-b1a8-471d-80c8-b48e89a0e898")
 		)
@@ -10983,6 +11882,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4d16415-c060-45cd-a48f-ed292b6d57d1")
+		(property "Reference" "GND3"
+			(at 138.43 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a01df75-b3e4-4ff9-9c9c-ebaa2bbda5b4")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "GND3")
 					(unit 1)
 				)
 			)
@@ -11134,6 +12118,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 223.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 223.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c57be51-bf6f-4bd3-bdc9-b1c73b1a0d23")
 		)
@@ -11151,7 +12153,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 195.58 0)
+		(at 68.58 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11160,7 +12162,7 @@
 		(fields_autoplaced yes)
 		(uuid "c853b1d9-2f6f-4328-a3ac-860e8a7c3a77")
 		(property "Reference" "TP12"
-			(at 83.82 191.0079 0)
+			(at 71.12 191.0079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11169,7 +12171,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 83.82 193.5479 0)
+			(at 71.12 193.5479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,7 +12180,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 86.36 195.58 0)
+			(at 73.66 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11187,7 +12189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 195.58 0)
+			(at 73.66 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +12198,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 81.28 195.58 0)
+			(at 68.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 68.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 68.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,6 +12432,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 63.5 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 63.5 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "261d36ce-0d79-4038-8dee-5f6b6be8bdc3")
 		)
@@ -11422,6 +12460,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 22.86 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc8713da-9ad4-4d7a-99b1-432ad52f5757")
+		(property "Reference" "TP22"
+			(at 25.4 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 25.4 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 27.94 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 22.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 22.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 22.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "852ee22b-846e-47d1-8981-cf25a477c3a0")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -11603,6 +12726,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 261.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 261.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B5"
 			(uuid "9349759e-590f-4381-971b-de2a6a73762c")
 		)
@@ -11662,7 +12803,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 59.69 195.58 0)
+		(at 49.53 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11671,7 +12812,7 @@
 		(fields_autoplaced yes)
 		(uuid "f844967a-b575-4961-bb13-15cddd5d8f32")
 		(property "Reference" "TP10"
-			(at 62.23 191.0079 0)
+			(at 52.07 191.0079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +12821,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 62.23 193.5479 0)
+			(at 52.07 193.5479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +12830,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 64.77 195.58 0)
+			(at 54.61 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +12839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 195.58 0)
+			(at 54.61 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11707,7 +12848,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 59.69 195.58 0)
+			(at 49.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 49.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 49.53 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +12888,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 101.6 189.23 0)
+		(at 86.36 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11738,7 +12897,7 @@
 		(fields_autoplaced yes)
 		(uuid "f87356c8-a418-4ced-96b2-170216453b23")
 		(property "Reference" "TP13"
-			(at 104.14 184.6579 0)
+			(at 88.9 184.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +12906,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 187.1979 0)
+			(at 88.9 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +12915,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 106.68 189.23 0)
+			(at 91.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +12924,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 189.23 0)
+			(at 91.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +12933,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 101.6 189.23 0)
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 86.36 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11789,6 +12966,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb792753-b61f-42ae-be8e-004a82896b0e")
+		(property "Reference" "GND4"
+			(at 138.43 52.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c484eb2-d57b-4d12-8b45-77ba6ccfcdd2")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a"
+					(reference "GND4")
 					(unit 1)
 				)
 			)
@@ -12018,7 +13280,7 @@
 			)
 		)
 		(pin "LASER1" output
-			(at 130.81 161.29 0)
+			(at 130.81 157.48 0)
 			(uuid "2c7f10f6-8d59-44f0-aa34-6f83e562def9")
 			(effects
 				(font
@@ -12028,7 +13290,7 @@
 			)
 		)
 		(pin "LASER2" output
-			(at 130.81 163.83 0)
+			(at 130.81 160.02 0)
 			(uuid "0cc84fa1-3aaa-4e6b-8bf9-8c977258cd74")
 			(effects
 				(font
@@ -12038,7 +13300,7 @@
 			)
 		)
 		(pin "W_LED_DIM" output
-			(at 130.81 166.37 0)
+			(at 130.81 162.56 0)
 			(uuid "aba43b2b-cd2b-4cdd-8a70-c14e46ba8ec6")
 			(effects
 				(font
@@ -12048,7 +13310,7 @@
 			)
 		)
 		(pin "IR_LED_DIM" output
-			(at 130.81 168.91 0)
+			(at 130.81 165.1 0)
 			(uuid "5ae40b51-5ae5-4d94-b5d4-9541e9ad828b")
 			(effects
 				(font
@@ -12090,6 +13352,26 @@
 		(pin "CAN_L" bidirectional
 			(at 130.81 153.67 0)
 			(uuid "7295fdc9-44d5-4d8e-b82e-bdee1b5f9480")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEST_GPIO_1" output
+			(at 130.81 168.91 0)
+			(uuid "85d610c1-e531-466b-a812-d7de0da1bc76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEST_GPIO_2" output
+			(at 130.81 171.45 0)
+			(uuid "80c74849-fcfd-448c-852c-8d6e24701fd2")
 			(effects
 				(font
 					(size 1.27 1.27)

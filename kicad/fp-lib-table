@@ -45,4 +45,6 @@
   (lib (name "SN74AXC8T245RHLR")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/SN74AXC8T245RHLR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TCAN337DR")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/TCAN337DR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ASTX_H11_16_000MHZ_I25_T")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/ASTX_H11_16_000MHZ_I25_T")(options "")(descr ""))
+  (lib (name "BM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_BM04B-SRSS-TB_LF__SN_/BM04B-SRSS-TB_LF__SN_/KiCad")(options "")(descr ""))
+  (lib (name "FH12-22S-0.5SVA_54_")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/LIB_FH12-22S-0.5SVA_54_/FH12-22S-0.5SVA_54_/KiCad")(options "")(descr ""))
 )

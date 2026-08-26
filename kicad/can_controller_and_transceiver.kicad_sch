@@ -1389,10 +1389,34 @@
 		(uuid "8467814c-2d00-4ead-b037-72a9ef9623f9")
 	)
 	(junction
+		(at 73.66 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "929fd892-0a34-49d5-96c5-f71a1ccb2bc5")
+	)
+	(junction
+		(at 66.04 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d78d06f-8d11-448f-9a1b-179c0d85335f")
+	)
+	(junction
 		(at 151.13 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2b0ff50-2164-42c0-83e8-a707ecb1b6d6")
+	)
+	(junction
+		(at 69.85 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c669111b-6de6-45ff-b0d6-0d3b3065dee0")
+	)
+	(junction
+		(at 62.23 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf5020d6-a070-40cf-9d73-c5e122f60f09")
 	)
 	(junction
 		(at 260.35 68.58)
@@ -1518,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 97.79 66.04)
+			(xy 58.42 66.04) (xy 66.04 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 63.5) (xy 97.79 63.5)
+			(xy 58.42 63.5) (xy 62.23 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 97.79 73.66)
+			(xy 58.42 73.66) (xy 97.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 97.79 68.58)
+			(xy 58.42 68.58) (xy 69.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1688,6 +1712,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 68.58) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c16bb2-03f9-4247-89b2-ba0902cdebbb")
+	)
+	(wire
+		(pts
 			(xy 212.09 60.96) (xy 212.09 68.58)
 		)
 		(stroke
@@ -1698,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 97.79 71.12)
+			(xy 58.42 71.12) (xy 73.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1768,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 66.04) (xy 97.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3da678-e4fb-4b65-9a09-f8d9f5b6a77f")
+	)
+	(wire
+		(pts
 			(xy 251.46 68.58) (xy 260.35 68.58)
 		)
 		(stroke
@@ -1828,6 +1872,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 63.5) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed085f30-4ee8-415c-a550-572758c6b507")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 97.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa222990-b4be-4938-8c83-066db88fdd7b")
+	)
+	(wire
+		(pts
 			(xy 148.59 63.5) (xy 151.13 63.5)
 		)
 		(stroke
@@ -1835,46 +1899,6 @@
 			(type default)
 		)
 		(uuid "fb1ded8b-b7a0-4c4a-9c6c-21a7884dbc55")
-	)
-	(label "INT_3V3"
-		(at 81.28 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a5d67a3-dd5b-40c5-afd4-5ae71d07c805")
-	)
-	(label "CS_3V3"
-		(at 81.28 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15fef39b-cc4e-43f2-b3f1-1900de66e7c9")
-	)
-	(label "MOSI_3V3"
-		(at 81.28 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4faf4811-651a-45bf-a9d8-b24f6fba0876")
-	)
-	(label "SCK_3V3"
-		(at 81.28 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "626d26cf-20dd-4d7e-a102-2610c315e53a")
 	)
 	(label "CANL"
 		(at 251.46 83.82 0)
@@ -1896,16 +1920,6 @@
 		)
 		(uuid "839b4324-3c74-4189-8ead-b40089484df9")
 	)
-	(label "MISO_3V3"
-		(at 81.28 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a98de93-74a8-45a9-bd35-91f2d4fea8a8")
-	)
 	(label "CANH"
 		(at 251.46 68.58 0)
 		(effects
@@ -1916,6 +1930,16 @@
 		)
 		(uuid "92684cd2-514d-4784-8da8-8e96c6e19f65")
 	)
+	(label "CS_3V3"
+		(at 97.79 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f9c72e4-6e89-41e0-ad8b-78e29fc59e5b")
+	)
 	(label "RXCAN"
 		(at 148.59 83.82 0)
 		(effects
@@ -1925,6 +1949,46 @@
 			(justify left bottom)
 		)
 		(uuid "a3123306-2ee7-4067-b0c6-a3b4970417f6")
+	)
+	(label "MISO_3V3"
+		(at 97.79 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aae32c84-8d0b-4565-b3ae-17c400668ebd")
+	)
+	(label "SCK_3V3"
+		(at 97.79 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c26b7a61-59fe-41d7-9f8e-e6fac134723a")
+	)
+	(label "MOSI_3V3"
+		(at 97.79 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db054ce4-3421-4739-a1e3-79cfb3649e86")
+	)
+	(label "INT_3V3"
+		(at 97.79 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4cb2ec3-efed-44c9-a16f-a66ac83f9560")
 	)
 	(label "TXCAN"
 		(at 148.59 88.9 0)
@@ -1958,6 +2022,17 @@
 		)
 		(uuid "0db5a607-1493-4650-83c3-4fcfb25db288")
 	)
+	(hierarchical_label "CAN_MISO"
+		(shape output)
+		(at 58.42 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1588682b-852e-4595-86ac-31f96c3f4295")
+	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 97.79 143.51 270)
@@ -1969,20 +2044,9 @@
 		)
 		(uuid "1a315c8d-b848-48cf-9e11-8650cfc1afd2")
 	)
-	(hierarchical_label "CAN_SCK"
-		(shape input)
-		(at 81.28 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "260a70a3-30cf-44a1-a5a7-433b71f86a61")
-	)
 	(hierarchical_label "CAN_MOSI"
 		(shape input)
-		(at 81.28 66.04 180)
+		(at 58.42 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2026,7 +2090,7 @@
 	)
 	(hierarchical_label "CAN_INT"
 		(shape output)
-		(at 81.28 73.66 180)
+		(at 58.42 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2057,16 +2121,16 @@
 		)
 		(uuid "80c4aadb-5288-4bd1-9ecb-33b0e631f9ba")
 	)
-	(hierarchical_label "CAN_MISO"
-		(shape output)
-		(at 81.28 71.12 180)
+	(hierarchical_label "CAN_SCK"
+		(shape input)
+		(at 58.42 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8e3fb43d-f6e2-4544-bb32-ec1e03315a6a")
+		(uuid "835543df-151f-498f-9e60-590be767dc55")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -2114,7 +2178,7 @@
 	)
 	(hierarchical_label "CAN_CS"
 		(shape input)
-		(at 81.28 63.5 180)
+		(at 58.42 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2133,6 +2197,91 @@
 			(justify left)
 		)
 		(uuid "ff0e0775-5f6b-4569-af35-a50512e4b12e")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12b77fc8-0303-42bc-9100-a7c742873e52")
+		(property "Reference" "TP20"
+			(at 74.93 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "514fd866-48d0-4e3b-998b-02250f0b85f6")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2/e36a95e5-70a1-4a6e-8046-6a648ad2ce7f"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -2189,6 +2338,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0ca9389-b3b3-455d-9036-9ce8d119cefe")
 		)
@@ -2228,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.012 128.27 90)
 			(effects
 				(font
@@ -2247,6 +2414,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 97.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 97.79 128.27 0)
 			(effects
 				(font
@@ -2325,6 +2510,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95c59792-05a9-4ce2-84ca-f1957f1330b2")
 		)
@@ -2387,6 +2590,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -2571,6 +2792,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3d9186f8-0dbb-40f0-9339-a955a14bd7aa")
 		)
@@ -2620,7 +2859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.352 67.31 90)
 			(effects
 				(font
@@ -2639,6 +2878,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 151.13 67.31 0)
 			(effects
 				(font
@@ -2709,6 +2966,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 233.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 233.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 233.68 78.74 0)
 			(effects
 				(font
@@ -2804,6 +3079,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b0d8add-0d33-434d-85b4-5317e44021e9")
 		)
@@ -2846,7 +3139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.312 73.66 90)
 			(effects
 				(font
@@ -2873,6 +3166,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38e567cd-a900-4484-8f18-0ed46d2a7fb0")
 		)
@@ -2883,6 +3194,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2/e36a95e5-70a1-4a6e-8046-6a648ad2ce7f"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9f48119-ddf3-4da3-9c0a-fd336bc2d133")
+		(property "Reference" "TP17"
+			(at 63.754 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.77 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968d2c80-1c0b-46af-b865-ea026147eb08")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2/e36a95e5-70a1-4a6e-8046-6a648ad2ce7f"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -2943,6 +3339,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63e9b2f7-3888-456a-9d50-53edfdd84bc1")
 		)
@@ -2986,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 258.572 76.2 90)
 			(effects
 				(font
@@ -3005,6 +3419,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 260.35 76.2 0)
 			(effects
 				(font
@@ -3083,6 +3515,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5290a0a-5aed-45f5-ac98-54f79cc59623")
 		)
@@ -3090,6 +3540,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2/e36a95e5-70a1-4a6e-8046-6a648ad2ce7f"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdd0d8ee-31dd-4a94-8ecf-b72c1f94493f")
+		(property "Reference" "TP19"
+			(at 71.12 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.39 66.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014351e1-63b2-4b93-b4f9-e114a25d7fad")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2/e36a95e5-70a1-4a6e-8046-6a648ad2ce7f"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.562 120.65 90)
 			(effects
 				(font
@@ -3150,6 +3685,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12c701ff-bda3-41f7-a453-0da7d619c81d")
 		)
@@ -3160,6 +3713,91 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2/e36a95e5-70a1-4a6e-8046-6a648ad2ce7f"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e86a52ab-6101-444b-8b36-f68d4a9e3d93")
+		(property "Reference" "TP18"
+			(at 67.31 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57e73b7c-1041-4762-80c0-5f4ff29904e7")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/38520343-841d-4333-8456-5b9049a13de2/e36a95e5-70a1-4a6e-8046-6a648ad2ce7f"
+					(reference "TP18")
 					(unit 1)
 				)
 			)

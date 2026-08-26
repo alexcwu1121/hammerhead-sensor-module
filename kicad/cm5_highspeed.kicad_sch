@@ -4399,6 +4399,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "38"
 			(uuid "e0a99724-8423-42c0-b948-5d21b9bd478e")
 		)

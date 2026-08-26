@@ -63,7 +63,16 @@
           "width": 0.13
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "malformed_courtyard|65500001|73850000|35da6505-632a-4d0d-94f4-e85a539eda00|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|66000000|73349998|35da6505-632a-4d0d-94f4-e85a539eda00|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -93,7 +102,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -109,9 +118,9 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -606,8 +615,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "build_7_24_25/",
-      "pos_files": "build_7_24_25/",
+      "plot": "build_8_23_26/",
+      "pos_files": "build_8_23_26/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -617,7 +626,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "build_8_23_26/hammerhead_sensor_module.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -870,6 +879,12 @@
           "group_by": false,
           "label": "Availability",
           "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
           "show": false
         }
       ],

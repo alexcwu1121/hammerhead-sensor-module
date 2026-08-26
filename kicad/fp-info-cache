@@ -1,4 +1,4 @@
-27369138673652055
+27372713572644439
 10TPE220ML
 16TDC150MYF
 D3L
@@ -139,6 +139,13 @@ Ferrite Bead
 0
 2
 2
+BM04B-SRSS-TB_LF__SN_
+BM04B-SRSS-TB_LFSN_
+BM04B-SRSS-TB_LFSN_
+Connector
+0
+6
+6
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -62425,6 +62432,13 @@ Inductor
 0
 2
 2
+FH12-22S-0.5SVA_54_
+FH1222S05SVA54
+FH12-22S-0.5SVA(54)-4
+Connector
+0
+26
+26
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
