@@ -1844,7 +1844,7 @@
 		(uuid "657708e5-cf5d-4f44-a088-3a25757a267b")
 	)
 	(junction
-		(at 72.39 151.13)
+		(at 59.69 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77a3b8e5-f997-4378-abdd-015ad0631491")
@@ -1880,6 +1880,12 @@
 		(uuid "930b6666-dd3b-40fb-80f3-04a111bd9735")
 	)
 	(junction
+		(at 81.28 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b060b3-7512-4698-83f7-3f18daeefad8")
+	)
+	(junction
 		(at 58.42 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1896,12 +1902,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c459bf12-5559-4911-a68c-0cd18ee76c3d")
-	)
-	(junction
-		(at 83.82 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d05b9833-afdc-4ea7-980b-8e434b6d4685")
 	)
 	(junction
 		(at 203.2 96.52)
@@ -1965,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 151.13) (xy 72.39 151.13)
+			(xy 52.07 151.13) (xy 59.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 151.13) (xy 83.82 151.13)
+			(xy 59.69 151.13) (xy 83.82 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2335,6 +2335,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 158.75) (xy 83.82 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b997f26-f10d-426e-82ae-d8c8c377604d")
+	)
+	(wire
+		(pts
 			(xy 157.48 54.61) (xy 157.48 58.42)
 		)
 		(stroke
@@ -2435,6 +2445,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 158.75) (xy 81.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff82323-496a-463b-bd6d-0c595ec578f7")
+	)
+	(wire
+		(pts
 			(xy 81.28 96.52) (xy 73.66 96.52)
 		)
 		(stroke
@@ -2452,16 +2472,6 @@
 			(type default)
 		)
 		(uuid "916909e5-8da8-46af-97cc-6e9683c81adf")
-	)
-	(wire
-		(pts
-			(xy 83.82 151.13) (xy 83.82 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c6d0df-3eec-46f2-95b1-83d7b7bc2574")
 	)
 	(wire
 		(pts
@@ -2595,6 +2605,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 158.75) (xy 81.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f079ca-cd26-4bf6-9537-5b4842d89a3b")
+	)
+	(wire
+		(pts
 			(xy 124.46 39.37) (xy 128.27 39.37)
 		)
 		(stroke
@@ -2655,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 167.64) (xy 81.28 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df17e1c0-a904-42af-89f3-e22540ab6766")
+	)
+	(wire
+		(pts
 			(xy 58.42 99.06) (xy 58.42 96.52)
 		)
 		(stroke
@@ -2705,7 +2735,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 158.75) (xy 72.39 161.29)
+			(xy 59.69 158.75) (xy 59.69 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2795,6 +2825,28 @@
 		)
 		(uuid "199235ca-51aa-4278-b447-685c9506d7e4")
 	)
+	(hierarchical_label "3.3V_EN"
+		(shape input)
+		(at 76.2 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ed7f3b2-d6b7-439a-82f4-5f524d56d1e1")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 81.28 168.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2005943c-2b6f-4d04-94f7-d07a3f9201e7")
+	)
 	(hierarchical_label "14.8V"
 		(shape input)
 		(at 24.13 96.52 180)
@@ -2852,7 +2904,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 64.77 151.13 180)
+		(at 52.07 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3006,7 +3058,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 72.39 161.29 270)
+		(at 59.69 161.29 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5062,7 +5114,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 154.94 0)
+		(at 59.69 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5071,7 +5123,7 @@
 		(fields_autoplaced yes)
 		(uuid "9646195c-6db0-41c3-bf63-ea156dec00e6")
 		(property "Reference" "C30"
-			(at 76.2 153.6699 0)
+			(at 63.5 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5132,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 76.2 156.2099 0)
+			(at 63.5 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5141,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 73.3552 158.75 0)
+			(at 60.6552 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 154.94 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5159,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 154.94 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5168,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 72.39 154.94 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5177,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 72.39 154.94 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,6 +5195,94 @@
 			(project "hammerhead_sensor_module"
 				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a498bbf8-655e-4656-a7c9-aa10ddf75822")
+		(property "Reference" "R1"
+			(at 83.82 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.82 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 83.058 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4094077-9701-4913-9501-1707a530af30")
+		)
+		(pin "1"
+			(uuid "9a3347b4-8863-4839-81f5-8bdfc392ce1a")
+		)
+		(instances
+			(project "hammerhead_sensor_module"
+				(path "/5313a223-fa0e-4103-9806-d293f3d5507a/8293f066-7499-4d50-94d4-999fc085e2c1"
+					(reference "R1")
 					(unit 1)
 				)
 			)
