@@ -8,3 +8,4 @@ kicad/#auto_saved_files#
 **/**/**/*autosave*
 **/**/**/*.csv
 **/**/**/build*
+**/**/**/*toolchain-*.sh
