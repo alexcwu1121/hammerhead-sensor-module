@@ -1,0 +1,49 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "generator": "Unix Makefiles",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "cacheVariables": {}
+        },
+        {
+            "name": "Target-Debug",
+            "inherits": "default",
+            "toolchainFile": "/opt/hammerhead/1.0/sysroots/x86_64-pokysdk-linux/usr/share/cmake/cortexa76-poky-linux-toolchain.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "Target-Release",
+            "inherits": "default",
+            "toolchainFile": "/opt/hammerhead/1.0/sysroots/x86_64-pokysdk-linux/usr/share/cmake/cortexa76-poky-linux-toolchain.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "Native-Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Target-Debug",
+            "configurePreset": "Target-Debug"
+        },
+        {
+            "name": "Target-Release",
+            "configurePreset": "Target-Release"
+        },
+        {
+            "name": "Native-Debug",
+            "configurePreset": "Native-Debug"
+        }
+    ]
+}

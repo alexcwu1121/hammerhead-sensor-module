@@ -1,0 +1,66 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "env": {
+            "HAMMERHEAD_HOST": "${config:hammerhead.targetHost}",
+            "HAMMERHEAD_USER": "${config:hammerhead.targetUser}"
+        }
+    },
+    "tasks": [
+        {
+            "label": "Build: Target-Debug",
+            "type": "shell",
+            "command": "cmake --preset Target-Debug && cmake --build --preset Target-Debug -j",
+            "group": "build",
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "Deploy: diagnostics",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/deploy.sh",
+            "args": [
+                "${workspaceFolder}/build/Target-Debug/cpp/diagnostics/hsc-diagnostics",
+                "/opt/diagnostics"
+            ],
+            "dependsOn": "Build: Target-Debug",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "focus": true
+            }
+        },
+        {
+            "label": "GDB Server: diagnostics",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/gdbserver.sh",
+            "args": [
+                "/opt/diagnostics/hsc-diagnostics",
+                "${config:hammerhead.gdbPort}"
+            ],
+            "dependsOn": "Deploy: diagnostics",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            },
+            "problemMatcher": {
+                "owner": "gdbserver",
+                "pattern": {
+                    "regexp": "^__never_matches__$"
+                },
+                "background": {
+                    "activeAtStart": true,
+                    "beginsPattern": "^Process .* created",
+                    "endsPattern": "^Listening on port \\d+"
+                }
+            }
+        },
+        {
+            "label": "Target: disconnect",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/disconnect.sh",
+            "problemMatcher": []
+        }
+    ]
+}
