@@ -18,3 +18,7 @@ target_link_libraries(socketcancpp
         socketcan
         uring
 )
+target_compile_definitions(socketcancpp
+    PUBLIC
+        $<$<CONFIG:Debug>:DEBUG>
+)

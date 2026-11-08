@@ -13,9 +13,6 @@
 class TurretControllerAPI
 {
 public:
-    /// @brief Ctor
-    TurretControllerAPI() = default;
-
 private:
 };
 
