@@ -7,125 +7,193 @@
 #include "socketcan.hpp"
 
 #include <net/if.h>
-#include <sys/ioctl.h>
 #include <sys/socket.h>
 #include <unistd.h>
 
-#include <cstring>
+#include <cerrno>
+#include <utility>
 
 namespace can
 {
 SocketCanNode::~SocketCanNode()
 {
-    // Attempt to close the socket
+    // Attempt to close the socket and uring queue
     (void)Close();
 }
 
-auto SocketCanNode::Open(const std::string& socketid) -> Fault
+auto SocketCanNode::Open(const std::string& socketid) -> FaultDetails
 {
     // Check if already open
-    if (_socket != -1) { return Fault::ALREADY_OPEN_FAULT; }
+    if (_socket != -1 || _uringInit) { return {Fault::ALREADY_OPEN_FAULT, 0}; }
+
+    // On any failure below, capture errno first, then release whatever was set up
+    const auto fail = [this](Fault fault, int errsv) -> FaultDetails {
+        (void)Close();
+        return {fault, errsv};
+    };
 
     // Open socket
     _socket = socket(PF_CAN, SOCK_RAW, CAN_RAW);
-    if (_socket == -1) { return Fault::OPEN_FAULT; }
+    if (_socket == -1) { return {Fault::OPEN_FAULT, errno}; }
 
     // Get index from interface name
-    ifreq ifr {};
-    strncpy(ifr.ifr_name, socketid.c_str(), IFNAMSIZ - 1);  // NOLINT
-    ifr.ifr_name[IFNAMSIZ - 1] = '\0';
-    ifr.ifr_ifindex = if_nametoindex(ifr.ifr_name);  // NOLINT
-    if (ifr.ifr_ifindex == 0) { return Fault::IF_TO_IDX_FAULT; }
+    const unsigned int ifindex = if_nametoindex(socketid.c_str());
+    if (ifindex == 0U) { return fail(Fault::IF_TO_IDX_FAULT, errno); }
 
     // Bind socket
     sockaddr_can addr {};
     addr.can_family = AF_CAN;
-    addr.can_ifindex = ifr.ifr_ifindex;
-    if (bind(_socket, reinterpret_cast<sockaddr*>(&addr), sizeof(addr)) == -1) { return Fault::BIND_FAULT; }  // NOLINT
-
-    // Set up uring queues
-    if (io_uring_queue_init(_uringQueueDepth, &_uring, 0) != 0) { return Fault::URING_INIT_FAULT; }
-
-    // Set up multishot rx
-    auto sqe = io_uring_get_sqe(&_uring);
-    // Prepare the multishot recv
-    io_uring_prep_recv_multishot(sqe, _socket, NULL, 0, 0);
-    io_uring_submit(&_uring);
-
-    return Fault::NO_FAULT;
-}
-
-auto SocketCanNode::Close() -> Fault
-{
-    if (_socket == -1) { return Fault::ALREADY_CLOSED_FAULT; }
-
-    if (close(_socket) == -1) { return Fault::CLOSE_FAULT; }
-
-    _socket = -1;
-    return Fault::NO_FAULT;
-}
-
-auto SocketCanNode::Write(const can_frame& frame) -> Fault
-{
-    // iface must be open
-    if (_socket == -1) { return Fault::SEND_W_NOT_OPEN_FAULT; }
-
-    auto nbytes = write(_socket, &frame, sizeof(can_frame));
-
-    /// TODO: revisit this
-    // Check for complete write
-    if (nbytes != sizeof(can_frame)) { return Fault::WRITE_FAULT; }
-
-    return Fault::NO_FAULT;
-}
-
-auto SocketCanNode::RegisterRxCallback(RxCallback rxcallback) -> Fault
-{
-    if (_rxCallback != nullptr) { return Fault::ALREADY_OPEN_FAULT; }
-
-    if (rxcallback == nullptr) { return Fault::CALLBACK_NULL_FAULT; }
-
-    _rxCallback = rxcallback;
-
-    return Fault::NO_FAULT;
-}
-
-auto SocketCanNode::Start() -> Fault
-{
-    struct io_uring_sqe* sqe;
-    sqe = io_uring_get_sqe(&_uring);
-
-    // Set up fixed io buffers
-    struct iovec iov[4];
-    for (int i = 0; i < 4; i++)
+    addr.can_ifindex = static_cast<int>(ifindex);
+    if (bind(_socket, reinterpret_cast<sockaddr*>(&addr), sizeof(addr)) == -1)  // NOLINT
     {
-        // hardcoding for testing only
-        iov[i].iov_base = malloc(16);
-        iov[i].iov_len = 16;
-        memset(iov[i].iov_base, 0, 16);
+        return fail(Fault::BIND_FAULT, errno);
     }
 
-    if (io_uring_register_buffers(&_uring, iov, 4)) { return Fault::IO_BUFFER_SETUP_FAULT; }
+    // Set up uring queues
+    int ret = io_uring_queue_init(_uringQueueDepth, &_uring, 0);
+    if (ret != 0) { return fail(Fault::URING_INIT_FAULT, -ret); }
+    _uringInit = true;
 
-    if (_rxCallback == nullptr) { return Fault::CALLBACK_NULL_FAULT; }
+    // Set up buffers (err out-param is -errno)
+    _bufRing = io_uring_setup_buf_ring(&_uring, _numBufs, _bufGroup, 0, &ret);
+    if (_bufRing == nullptr) { return fail(Fault::IO_BUFFER_SETUP_FAULT, -ret); }
+
+    // Populate buffer ring
+    const auto mask = io_uring_buf_ring_mask(_numBufs);
+    for (uint32_t i = 0U; i < _numBufs; i++)
+    {
+        io_uring_buf_ring_add(_bufRing, &_buffers[i], _bufSize, static_cast<unsigned short>(i), mask,
+                              static_cast<int>(i));
+    }
+    io_uring_buf_ring_advance(_bufRing, _numBufs);
+
+    return {Fault::NO_FAULT, 0};
+}
+
+auto SocketCanNode::Close() -> FaultDetails
+{
+    if (_socket == -1 && !_uringInit) { return {Fault::ALREADY_CLOSED_FAULT, 0}; }
+
+    // Tear down in reverse order of setup: buffer ring, then uring, then socket
+    if (_bufRing != nullptr)
+    {
+        (void)io_uring_free_buf_ring(&_uring, _bufRing, _numBufs, _bufGroup);
+        _bufRing = nullptr;
+    }
+
+    if (_uringInit)
+    {
+        io_uring_queue_exit(&_uring);
+        _uring = {};
+        _uringInit = false;
+    }
+
+    if (_socket != -1)
+    {
+        const int ret = close(_socket);
+        const int errsv = errno;
+        _socket = -1;
+        if (ret == -1) { return {Fault::CLOSE_FAULT, errsv}; }
+    }
+
+    return {Fault::NO_FAULT, 0};
+}
+
+auto SocketCanNode::Write(const can_frame& frame) -> FaultDetails
+{
+    // iface must be open
+    if (_socket == -1) { return {Fault::SEND_W_NOT_OPEN_FAULT, 0}; }
+
+    const auto nbytes = write(_socket, &frame, sizeof(can_frame));
+
+    // ENOBUFS here means the tx queue is full and the caller may retry
+    if (nbytes == -1) { return {Fault::WRITE_FAULT, errno}; }
+
+    // Short write
+    if (nbytes != sizeof(can_frame)) { return {Fault::WRITE_FAULT, 0}; }
+
+    return {Fault::NO_FAULT, 0};
+}
+
+auto SocketCanNode::RegisterRxCallback(RxCallback rxcallback) -> FaultDetails
+{
+    if (_rxCallback != nullptr) { return {Fault::CALLBACK_ALREADY_REGISTERED_FAULT, 0}; }
+
+    if (rxcallback == nullptr) { return {Fault::CALLBACK_NULL_FAULT, 0}; }
+
+    _rxCallback = std::move(rxcallback);
+
+    return {Fault::NO_FAULT, 0};
+}
+
+auto SocketCanNode::Start() -> FaultDetails
+{
+    if (_socket == -1 || !_uringInit || _bufRing == nullptr) { return {Fault::NOT_OPEN_FAULT, 0}; }
+
+    if (_rxCallback == nullptr) { return {Fault::CALLBACK_NULL_FAULT, 0}; }
+
+    // Buffer ring size mask
+    const auto mask = io_uring_buf_ring_mask(_numBufs);
+
+    // Post multishot rx
+    const auto fault = ArmRecv();
+    if (fault.fault != Fault::NO_FAULT) { return fault; }
 
     while (true)
     {
-        io_uring_wait_cqe(&_uring, &_cqe);
-
-        if (_cqe->res < 0)
+        io_uring_cqe* cqe = nullptr;
+        const int ret = io_uring_wait_cqe(&_uring, &cqe);
+        if (ret == -EINTR)
         {
-            // Handle error
-            io_uring_cqe_seen(&_uring, _cqe);
-            return Fault::CQE_HANDLE_FAULT;
+            // retry on interruption
+            continue;
+        }
+        if (ret < 0) { return {Fault::CQE_HANDLE_FAULT, -ret}; }
+
+        // Copy out the completion before handing the slot back to the kernel
+        const int res = cqe->res;
+        const uint32_t flags = cqe->flags;
+        io_uring_cqe_seen(&_uring, cqe);
+
+        if ((flags & IORING_CQE_F_BUFFER) != 0U)
+        {
+            const uint32_t idx = flags >> IORING_CQE_BUFFER_SHIFT;
+            if (idx >= _numBufs) { return {Fault::CQE_HANDLE_FAULT, 0}; }
+
+            // Only hand complete standard frames to the callback
+            if (res == static_cast<int>(sizeof(can_frame))) { _rxCallback(&_buffers[idx]); }
+
+            // Return buffer to the ring
+            io_uring_buf_ring_add(_bufRing, &_buffers[idx], _bufSize, static_cast<unsigned short>(idx), mask, 0);
+            io_uring_buf_ring_advance(_bufRing, 1);
         }
 
-        // Convert into CAN frame and execute callback
-        int bytes_received = _cqe->res;
-        int buffer_id = _cqe->flags >> IORING_CQE_BUFFER_SHIFT;
-        _rxCallback(reinterpret_cast<can_frame*>(iov[buffer_id].iov_base));
+        // ENOBUFS means the buffer ring ran dry and multishot terminated. Every buffer
+        // from earlier completions has been recycled by now, so just rearm below.
+        if (res < 0 && res != -ENOBUFS) { return {Fault::CQE_HANDLE_FAULT, -res}; }
 
-        io_uring_cqe_seen(&_uring, _cqe);
+        // Multishot recv has terminated, rearm
+        if ((flags & IORING_CQE_F_MORE) == 0U)
+        {
+            const auto armed = ArmRecv();
+            if (armed.fault != Fault::NO_FAULT) { return armed; }
+        }
     }
+}
+
+auto SocketCanNode::ArmRecv() -> FaultDetails
+{
+    io_uring_sqe* sqe = io_uring_get_sqe(&_uring);
+    if (sqe == nullptr) { return {Fault::SQE_FAULT, 0}; }
+
+    io_uring_prep_recv_multishot(sqe, _socket, nullptr, 0, 0);
+    sqe->flags |= IOSQE_BUFFER_SELECT;
+    sqe->buf_group = _bufGroup;
+
+    const int ret = io_uring_submit(&_uring);
+    if (ret < 0) { return {Fault::SUBMIT_FAULT, -ret}; }
+    if (ret == 0) { return {Fault::SUBMIT_FAULT, 0}; }
+
+    return {Fault::NO_FAULT, 0};
 }
 }  // namespace can
