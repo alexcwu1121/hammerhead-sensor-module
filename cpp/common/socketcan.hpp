@@ -18,6 +18,15 @@
 namespace can
 {
 /// @brief Basic standard CAN socketcan node with uring and callback based receive
+///
+/// @par Thread safety
+/// - Write() may be called concurrently from any number of threads, and concurrently with
+///   a Start() loop running on another thread. Each call sends one whole frame; ordering
+///   between threads is unspecified.
+/// - Open(), Close(), RegisterRxCallback() and destruction are NOT thread safe. They must
+///   not run concurrently with any other method on the same node. In particular, join all
+///   writer threads and the thread running Start() before calling Close() or destroying
+///   the node; otherwise a Write() racing Close() may write into an unrelated, reused fd.
 class SocketCanNode
 {
 public:
@@ -64,19 +73,24 @@ public:
     SocketCanNode& operator=(SocketCanNode&&) = delete;  // NOLINT
 
     /// @brief Open socket connection
+    /// @note Not thread safe; see class thread safety notes
     /// @return FaultDetails
     [[nodiscard]] auto Open(const std::string& socketid) -> FaultDetails;
 
     /// @brief Close socket connection
+    /// @note Not thread safe; no other method may be running or called concurrently
     /// @return FaultDetails
     [[nodiscard]] auto Close() -> FaultDetails;
 
     /// @brief Write a frame
+    /// @note Thread safe against other Write() calls and a running Start(), but not
+    ///       against Open() or Close()
     /// @param frame
     /// @return FaultDetails
     [[nodiscard]] auto Write(const can_frame& frame) -> FaultDetails;
 
     /// @brief Register message rx callback
+    /// @note Not thread safe; register before Start() is called
     /// @param rxcallback
     /// @return FaultDetails
     [[nodiscard]] auto RegisterRxCallback(RxCallback rxcallback) -> FaultDetails;
