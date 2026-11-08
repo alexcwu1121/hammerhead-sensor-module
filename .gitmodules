@@ -1,0 +1,6 @@
+[submodule "cpp/turret_controller_api/hammerhead-turret-controller"]
+	path = cpp/turret_controller_api/hammerhead-turret-controller
+	url = https://github.com/alexcwu1121/hammerhead-turret-controller
+[submodule "cpp/platform_controller_api/hammerhead-platform-controller"]
+	path = cpp/platform_controller_api/hammerhead-platform-controller
+	url = https://github.com/alexcwu1121/hammerhead-platform-controller
