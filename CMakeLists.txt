@@ -22,6 +22,12 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 message("Build type: " ${CMAKE_BUILD_TYPE})
 
+# Set optimization flags
+set(CMAKE_C_FLAGS_DEBUG "-O0 -g3")
+set(CMAKE_C_FLAGS_RELEASE "-Os -g0")
+set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g3")
+set(CMAKE_CXX_FLAGS_RELEASE "-Os -g0")
+
 # Set options
 
 # Build
